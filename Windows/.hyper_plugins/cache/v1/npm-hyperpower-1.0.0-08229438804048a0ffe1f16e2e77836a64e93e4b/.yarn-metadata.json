@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "name": "hyperpower",
+    "version": "1.0.0",
+    "keywords": [
+      "hyper",
+      "hyper.app",
+      "hyper-plugin"
+    ],
+    "description": "Extension for particle effects in Hyper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zeit/hyperpower.git"
+    },
+    "dependencies": {
+      "color": "0.11.3",
+      "convert-css-color-name-to-hex": "0.1.1",
+      "lodash.throttle": "4.1.1",
+      "lodash.values": "4.3.0"
+    },
+    "_registry": "npm",
+    "_loc": "C:\\Users\\rahul\\.hyper_plugins\\cache\\v1\\npm-hyperpower-1.0.0-08229438804048a0ffe1f16e2e77836a64e93e4b\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "\n# Hyperpower\n\nExtension for Hyper that turns on power mode, with bonus `wow` mode.\n\n![hyper](https://cloud.githubusercontent.com/assets/13041/16820268/13c9bfe6-4905-11e6-8fe4-baf8fc8d9293.gif)\n\n**Note:** shaking is only enabled in wow mode now! Which makes `hyperpower` an extension that you can use full time :P\n\n## How to use\n\nInstall [Hyper](https://hyper.is) and add `hyperpower`\nto `plugins` in `~/.hyper.js`.\n\n## Credits\n\nBased on [`power-mode`](https://atom.io/packages/power-mode) and\n[`rage-power`](https://github.com/itszero/rage-power).\n\n## License\n\nMIT\n",
+    "license": "MIT*"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperpower/-/hyperpower-1.0.0.tgz#08229438804048a0ffe1f16e2e77836a64e93e4b",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperpower/-/hyperpower-1.0.0.tgz",
+    "hash": "08229438804048a0ffe1f16e2e77836a64e93e4b",
+    "registry": "npm",
+    "packageName": "hyperpower"
+  },
+  "registry": "npm",
+  "hash": "08229438804048a0ffe1f16e2e77836a64e93e4b"
+}

@@ -1,0 +1,30 @@
+DownloadManager Information: 0 : Arguments: /q /BurnBundleProviderKey {a9528995-e130-4501-ae19-bbfaddb779cc} /lcid 1033 /cacheLastUsedFeed C:\Users\rahul\AppData\Local\Temp\1981786583.xml /primarylog C:\Users\rahul\.windows-build-tools\build-tools-log.txt /FeedUriToRegister http://go.microsoft.com/fwlink/?LinkID=659004&clcid=0x409 /FeedRegistryKey Software\Microsoft\VisualStudio\14.0\Setup\VisualCppBuildTools\Full -burn.ancestors={a9528995-e130-4501-ae19-bbfaddb779cc} -burn.embedded BurnPipe.{94D10F76-1DE4-40E0-B0B4-3BD18281C6C8} {318642A0-F66B-4C03-8A33-96007182D83B} 75860
+    DateTime=2018-05-12T07:52:41.3697725Z
+DownloadManager Information: 0 : Setting the overall return code to CANCEL
+    DateTime=2018-05-12T07:52:41.3758549Z
+DownloadManager Information: 0 : Setting RebootRequested to False
+    DateTime=2018-05-12T07:52:41.3758549Z
+DownloadManager Information: 0 : Setting IsRebootInitiatedInTheMiddle to False
+    DateTime=2018-05-12T07:52:41.3758549Z
+DownloadManager Information: 0 : Setting the launch path to 
+    DateTime=2018-05-12T07:52:41.3758549Z
+DownloadManager Information: 0 : Setting the launch action to Install
+    DateTime=2018-05-12T07:52:41.3798627Z
+DownloadManager Information: 0 : Setting the launch path to 
+    DateTime=2018-05-12T07:52:41.3798627Z
+DownloadManager Information: 0 : Setting the display mode to Quiet
+    DateTime=2018-05-12T07:52:41.3798627Z
+DownloadManager Information: 0 : Caching last used feed: C:\Users\rahul\AppData\Local\Temp\1981786583.xml
+    DateTime=2018-05-12T07:52:41.3807685Z
+DownloadManager Information: 0 : Copying last used feed from 'C:\Users\rahul\AppData\Local\Temp\1981786583.xml' to 'C:\ProgramData\Microsoft\VisualStudioSecondaryInstaller\14.0\LastUsedFeed\{a9528995-e130-4501-ae19-bbfaddb779cc}\Feed.xml'
+    DateTime=2018-05-12T07:52:41.3819293Z
+DownloadManager Information: 0 : Writing feed uri 'http://go.microsoft.com/fwlink/?LinkID=659004&clcid=0x409' to 'HKLM\Software\Microsoft\VisualStudio\14.0\Setup\VisualCppBuildTools\Full\SetupFeedUri'
+    DateTime=2018-05-12T07:52:41.4179717Z
+DownloadManager Information: 0 : Writing cached feed location 'C:\ProgramData\Microsoft\VisualStudioSecondaryInstaller\14.0\LastUsedFeed\{a9528995-e130-4501-ae19-bbfaddb779cc}\Feed.xml' to 'HKLM\Software\Microsoft\VisualStudio\14.0\Setup\VisualCppBuildTools\Full\SetupFeedUri'
+    DateTime=2018-05-12T07:52:41.4209656Z
+DownloadManager Information: 0 : Setting the overall return code to SUCCESS
+    DateTime=2018-05-12T07:52:41.4217380Z
+DownloadManager Information: 0 : Return code: 0(SUCCESS)
+    DateTime=2018-05-12T07:52:41.4217380Z
+DownloadManager Warning: 0 : SQM didn't upload. Result code=0
+    DateTime=2018-05-12T07:52:42.9539040Z

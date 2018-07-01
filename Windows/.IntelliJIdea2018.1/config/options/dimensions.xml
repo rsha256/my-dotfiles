@@ -1,0 +1,36 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080@120dpi" x="961" y="473" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@120dpi" x="689" y="94" />
+    <location key="GitCloneDialog.0.0.1920.1080@120dpi" x="731" y="366" />
+    <location key="NewModule_or_Project.wizard.0.0.1920.1080@120dpi" x="539" y="9" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080@120dpi" x="564" y="313" />
+    <location key="new project wizard.0.0.1920.1080@120dpi" x="509" y="65" />
+    <location key="SettingsEditor.0.0.1920.1080@120dpi" x="571" y="131" />
+    <location key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.1920.1080@120dpi" x="623" y="271" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080@120dpi" x="353" y="0" />
+    <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1920.1080@120dpi" x="723" y="439" />
+    <location key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor.0.0.1920.1080@120dpi" x="436" y="103" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080@120dpi" x="624" y="218" />
+    <location key="#Browse_Repositories.0.0.1920.1080@120dpi" x="430" y="15" />
+    <location key="#Browse_JetBrains_Plugins_.0.0.1920.1080@120dpi" x="430" y="15" />
+    <location key="find.popup.0.0.1920.1080@120dpi" x="704" y="158" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080@120dpi" x="680" y="283" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080@144dpi" x="512" y="269" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@144dpi" x="632" y="146" />
+    <location key="new project wizard.0.0.1920.1080@144dpi" x="420" y="0" />
+    <location key="SettingsEditor.0.0.1920.1080@144dpi" x="177" y="2" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080@120dpi" width="1362" height="1080" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@120dpi" width="1863" height="503" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@120dpi" width="1863" height="503" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@120dpi" width="1863" height="503" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@120dpi" width="1863" height="503" />
+    <size key="new project wizard.0.0.1920.1080@120dpi" width="959" height="950" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1080@120dpi" width="880" height="928" />
+    <size key="find.popup.0.0.1920.1080@120dpi" width="803" height="827" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@144dpi" width="1853" height="257" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@144dpi" width="1853" height="257" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@144dpi" width="1853" height="257" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@144dpi" width="1853" height="257" />
+  </component>
+</application>

@@ -1,0 +1,32 @@
+{
+  "state": {
+    "doctor": {
+      "ignored": []
+    },
+    "lastCommand": "2018-06-29T23:17:26.832Z"
+  },
+  "created": "2018-05-03T12:09:42.084Z",
+  "daemon": {
+    "updates": true
+  },
+  "devapp": {
+    "knownInterfaces": []
+  },
+  "addresses": {},
+  "git": {
+    "setup": false
+  },
+  "user": {
+    "id": 1413468,
+    "email": "rahuldshah3@gmail.com"
+  },
+  "tokens": {
+    "appUser": {},
+    "telemetry": "9a838545-a31b-4e2e-9e91-3f9eb04c5250",
+    "user": "110b75c7d9814dda125a908878327602"
+  },
+  "backend": "pro",
+  "telemetry": true,
+  "yarn": false,
+  "version": "3.20.0"
+}

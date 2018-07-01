@@ -1,0 +1,132 @@
+[DEBUG] [2018-05-03T12:09:42.613Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-03T12:09:42.613Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-03T12:09:42.629Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-03T12:09:44.157Z] Writing 20084 to daemon pid file (.\daemon.pid).
+[2018-05-03T12:09:44.173Z] Spinning up communication server on port 53818.
+[2018-05-03T12:09:44.298Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-05-03T12:09:51.176Z] Writing daemon file.
+[ERROR] [2018-05-03T12:09:53.363Z] Error with ..\..\..\WINDOWS\system32\helloWorld\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-05-03T12:09:53.363Z] Error with C:\WINDOWS\system32\helloWorld\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+TypeError: Invalid Version: 
+    at new SemVer (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:305:11)
+    at compare (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:578:39)
+    at Function.gt (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:607:10)
+    at C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\@ionic\cli-utils\lib\plugins.js:184:23
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\tslib\tslib.js:104:62)
+    at <anonymous>
+TypeError: Invalid Version: 
+    at new SemVer (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:305:11)
+    at compare (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:578:39)
+    at Function.gt (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:607:10)
+    at C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\@ionic\cli-utils\lib\plugins.js:184:23
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\tslib\tslib.js:104:62)
+    at <anonymous>
+TypeError: Invalid Version: 
+    at new SemVer (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:305:11)
+    at compare (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:578:39)
+    at Function.gt (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\semver\semver.js:607:10)
+    at C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\@ionic\cli-utils\lib\plugins.js:184:23
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\rahul\AppData\Roaming\npm\node_modules\ionic\node_modules\tslib\tslib.js:104:62)
+    at <anonymous>
+[DEBUG] [2018-05-03T13:12:05.643Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-05-03T13:12:05.644Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-05-03T13:12:44.694Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-03T13:12:44.698Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-03T13:12:44.707Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-03T13:12:46.846Z] Writing 3100 to daemon pid file (.\daemon.pid).
+[2018-05-03T13:12:46.852Z] Spinning up communication server on port 53818.
+[2018-05-03T13:12:47.020Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-05-03T13:12:54.358Z] Writing daemon file.
+[ERROR] [2018-05-03T13:15:01.518Z] Error with C:\WINDOWS\system32\helloWorld\education-for-success\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-05-03T13:15:01.519Z] Error with C:\WINDOWS\system32\helloWorld\education-for-success\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-05-03T13:27:56.970Z] Writing daemon file.
+[ERROR] [2018-05-03T13:36:29.509Z] Error with ~\education-for-success\education-for-success\node_modules\ionic-angular\package.json file: FILE_NOT_FOUND
+[ERROR] [2018-05-03T13:36:29.510Z] Error with ~\education-for-success\education-for-success\node_modules\@ionic\app-scripts\package.json file: FILE_NOT_FOUND
+[2018-05-03T13:42:56.961Z] Writing daemon file.
+[2018-05-03T13:57:56.838Z] Writing daemon file.
+[2018-05-03T14:12:56.899Z] Writing daemon file.
+[DEBUG] [2018-05-03T14:19:17.836Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-05-03T14:19:17.840Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-05-14T05:47:46.244Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-14T05:47:46.312Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-14T05:47:46.335Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-14T05:47:49.178Z] Writing 15496 to daemon pid file (.\daemon.pid).
+[2018-05-14T05:47:49.216Z] Spinning up communication server on port 53818.
+[2018-05-14T05:47:50.642Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-05-14T05:47:58.413Z] Writing daemon file.
+[DEBUG] [2018-05-14T05:48:12.052Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-05-14T05:48:12.054Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-05-14T05:48:19.042Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-14T05:48:19.048Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-14T05:48:19.066Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-14T05:48:22.622Z] Writing 43360 to daemon pid file (.\daemon.pid).
+[2018-05-14T05:48:22.628Z] Spinning up communication server on port 53818.
+[2018-05-14T05:48:22.856Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-05-14T05:48:30.439Z] Writing daemon file.
+[DEBUG] [2018-05-14T05:51:15.157Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-05-14T05:51:15.160Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-05-14T05:53:27.936Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-14T05:53:27.942Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-14T05:53:27.962Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-14T05:53:30.770Z] Writing 46004 to daemon pid file (.\daemon.pid).
+[2018-05-14T05:53:30.779Z] Spinning up communication server on port 53818.
+[2018-05-14T05:53:31.041Z] Writing 53818 to daemon port file (.\daemon.port).
+[DEBUG] [2018-05-14T05:53:36.374Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-05-14T05:53:36.376Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-05-14T05:59:59.415Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-14T05:59:59.426Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-14T05:59:59.447Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-14T06:00:02.533Z] Writing 40820 to daemon pid file (.\daemon.pid).
+[2018-05-14T06:00:02.545Z] Spinning up communication server on port 53818.
+[2018-05-14T06:00:02.799Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-05-14T06:00:10.540Z] Writing daemon file.
+[DEBUG] [2018-05-14T06:14:49.085Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-05-14T06:14:49.087Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-05-14T07:02:50.898Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-14T07:02:50.908Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-14T07:02:50.921Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-14T07:02:53.283Z] Writing 21696 to daemon pid file (.\daemon.pid).
+[2018-05-14T07:02:53.292Z] Spinning up communication server on port 53819.
+[2018-05-14T07:02:53.481Z] Writing 53819 to daemon port file (.\daemon.port).
+[DEBUG] [2018-05-14T07:02:55.629Z] registerShutdownFunction: SIGINT
+[DEBUG] [2018-05-14T07:02:55.630Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-05-14T07:03:01.768Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-05-14T07:03:01.774Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-05-14T07:03:01.785Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-05-14T07:03:03.696Z] Writing 54652 to daemon pid file (.\daemon.pid).
+[2018-05-14T07:03:03.705Z] Spinning up communication server on port 53819.
+[2018-05-14T07:03:03.897Z] Writing 53819 to daemon port file (.\daemon.port).
+[2018-05-14T07:03:11.031Z] Writing daemon file.
+[DEBUG] [2018-05-14T07:03:21.516Z] registerShutdownFunction: SIGHUP
+[DEBUG] [2018-05-14T07:03:21.516Z] registerShutdownFunction process.exit/normal shutdown
+[DEBUG] [2018-06-29T23:13:10.851Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-06-29T23:13:10.986Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-06-29T23:13:11.018Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[DEBUG] [2018-06-29T23:17:27.147Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-06-29T23:17:27.147Z] Reason for not using local CLI: BASE_DIRECTORY_NOT_FOUND
+[DEBUG] [2018-06-29T23:17:27.154Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-06-29T23:17:27.157Z] CLI flags: { interactive: false, confirm: false }
+[DEBUG] [2018-06-29T23:17:27.173Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[DEBUG] [2018-06-29T23:17:27.176Z] { cwd: 'C:\\Users\\rahul\\.ionic', local: false, binPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic', libPath: 'C:\\Users\\rahul\\AppData\\Roaming\\npm\\node_modules\\ionic\\dist\\index.js' }
+[2018-06-29T23:17:39.644Z] Writing 16156 to daemon pid file (.\daemon.pid).
+[2018-06-29T23:17:39.644Z] Writing 36576 to daemon pid file (.\daemon.pid).
+[2018-06-29T23:17:39.662Z] Spinning up communication server on port 53818.
+[2018-06-29T23:17:39.670Z] Spinning up communication server on port 53818.
+[2018-06-29T23:17:44.127Z] Writing 53818 to daemon port file (.\daemon.port).
+[2018-06-29T23:17:44.127Z] Writing 53818 to daemon port file (.\daemon.port).
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:53818
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (net.js:1517:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:97:10)
+[2018-06-29T23:17:49.143Z] Daemon shutting down--mismatch with pid file. (36576 vs 16156)
+[DEBUG] [2018-06-29T23:17:49.143Z] registerShutdownFunction process.exit/normal shutdown

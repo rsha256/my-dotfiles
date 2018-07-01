@@ -1,0 +1,31 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="AndroidInitConfigurator.V1" value="true" />
+    <property name="AndroidInitConfigurator.V3" value="true" />
+    <property name="AndroidInitConfigurator.V5" value="true" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Darcula" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="DocumentationAutoUpdateEnabled" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="ShowDocumentationInToolWindow" value="true" />
+    <property name="evlsprt3.181" value="14" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/PythonProjects/p2&#10;C:/Users/rahul/PythonProjects/stuff&#10;C:/Users/rahul/tempdir&#10;C:/Users/rahul/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin&#10;C:/Users/rahul/AppData/Local/Google/Cloud SDK&#10;C:/Users/rahul/Documents/HSSinfo" />
+    <property name="file.gist.reindex.count" value="7876" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="installed.kotlin.plugin.version" value="1.2.30-release-Studio3.1-1" />
+    <property name="lastTip" value="12" />
+    <property name="python.app.engine.sdk.path" value="" />
+    <property name="quick.doc.font.size" value="SMALL" />
+    <property name="ts.lib.d.ts.version" value="2.8.1" />
+  </component>
+</application>

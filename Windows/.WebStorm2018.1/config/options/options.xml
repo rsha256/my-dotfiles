@@ -1,0 +1,23 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Darcula.savedEditorTheme" value="Dracula" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="MTBoldTabs" value="false" />
+    <property name="MTBorderPopup" value="true" />
+    <property name="MTTabsHeight" value="42" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="com.chrisrm.idea.MaterialThemeUI.theme" value="DARKER" />
+    <property name="disable.forced.soft.wraps.notification" value="true" />
+    <property name="evlsprt3.181" value="10" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/WWP_GradeCalculator&#10;C:/Users/rahul/Project-Pride&#10;C:/Users/rahul/SouthHacks-Website&#10;C:/Users/rahul/hss-ctf" />
+    <property name="file.gist.reindex.count" value="180" />
+    <property name="fileTypeChangedCounter" value="6" />
+    <property name="ideavim.statistics.timestamp" value="1530314251980" />
+    <property name="ignoreUltimateEdition" value="true" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="mt.showStatisticsAgreement" value="true" />
+    <property name="ts.lib.d.ts.version" value="2.8.1" />
+  </component>
+</application>

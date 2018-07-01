@@ -1,0 +1,287 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/hss-ctf/3/3.3/MultipleChoice.html" timestamp="1528809073974">
+        <mark key="[" line="6" column="12" />
+        <mark key="]" line="6" column="11" />
+        <mark key="^" line="6" column="11" />
+        <mark key="." line="6" column="11" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/co-president.php" timestamp="1529297793920">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/2017.html" timestamp="1529191348957">
+        <mark key="[" line="21" column="44" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/.gitignore" timestamp="1529190732802">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/SouthHacks-Website/index.html" timestamp="1528767482517">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/death.php" timestamp="1529173655775">
+        <mark key="[" line="29" column="32" />
+        <mark key="]" line="29" column="32" />
+        <mark key="." line="29" column="32" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/years.html" timestamp="1529265715021">
+        <mark key="[" line="14" column="5" />
+        <mark key="]" line="67" column="60" />
+        <mark key="." line="67" column="60" />
+        <mark key="^" line="34" column="60" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/templates/register.html" timestamp="1529973166428">
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="0" />
+        <mark key="^" line="15" column="0" />
+        <mark key="." line="42" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/license.md" timestamp="1529973898097">
+        <mark key="[" line="190" column="32" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/js/sticky_div.js" timestamp="1529194888410">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/js/scroll_indicator.js" timestamp="1529193475205">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="28" column="3" />
+        <mark key="^" line="28" column="3" />
+        <mark key="." line="28" column="3" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/static/css/base.css" timestamp="1529974089776">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/templates/index.html" timestamp="1529986799012">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/css/materialize.min.css" timestamp="1528985512083">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/.gitignore" timestamp="1529984946569">
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="30" column="0" />
+        <mark key="." line="30" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/templates/login.html" timestamp="1529973113297">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/templates/base.html" timestamp="1529971206611">
+        <mark key="a" line="41" column="42" />
+        <mark key="[" line="41" column="37" />
+        <mark key="]" line="41" column="37" />
+        <mark key="^" line="10" column="0" />
+        <mark key="." line="41" column="37" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/runserver.sh" timestamp="1529976507820">
+        <mark key="[" line="13" column="9" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/hss-ctf/1/1.2/index.html" timestamp="1528808513636">
+        <mark key="[" line="29" column="41" />
+        <mark key="]" line="29" column="42" />
+        <mark key="^" line="29" column="42" />
+        <mark key="." line="29" column="42" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/members.html" timestamp="1529299654337">
+        <mark key="[" line="53" column="32" />
+        <mark key="]" line="9" column="73" />
+        <mark key="^" line="9" column="73" />
+        <mark key="." line="9" column="73" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/contact.html" timestamp="1529172093885">
+        <mark key="[" line="21" column="22" />
+        <mark key="]" line="86" column="6" />
+        <mark key="^" line="86" column="5" />
+        <mark key="." line="86" column="2" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/css/years.css" timestamp="1529196537651">
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/hss-ctf/1/1.1/index.html" timestamp="1528808338631">
+        <mark key="[" line="9" column="11" />
+        <mark key="]" line="9" column="11" />
+        <mark key="." line="9" column="11" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/WWP_GradeCalculator.py" timestamp="1529972275731">
+        <mark key="[" line="128" column="0" />
+        <mark key="]" line="128" column="0" />
+        <mark key="^" line="128" column="0" />
+        <mark key="." line="128" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/setup.sh" timestamp="1529976493384">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/hss-ctf/1/1.5/index.html" timestamp="1528808529401">
+        <mark key="[" line="9" column="19" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/templates/management.html" timestamp="1529986944131">
+        <mark key="'" line="1" column="23" />
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="^" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/contact.php" timestamp="1529262996966">
+        <mark key="[" line="182" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/README.md" timestamp="1529983233617">
+        <mark key="'" line="11" column="4" />
+        <mark key="[" line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/wwpgradecalculator/app.yaml" timestamp="1530039956809">
+        <mark key="[" line="12" column="10" />
+        <mark key="]" line="12" column="13" />
+        <mark key="." line="12" column="13" />
+        <mark key="^" line="12" column="13" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/config.php" timestamp="1529287460007">
+        <mark key="a" line="11" column="36" />
+        <mark key="[" line="11" column="30" />
+        <mark key="]" line="11" column="30" />
+        <mark key="." line="11" column="30" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/css/materialize.css" timestamp="1528986377773">
+        <mark key="[" line="5252" column="20" />
+      </file>
+      <file name="$USER_HOME$/WWP_GradeCalculator/WWP_GradeCalculator/app.yaml" timestamp="1529981751344">
+        <mark key="[" line="0" column="12" />
+        <mark key="]" line="0" column="13" />
+        <mark key="." line="0" column="13" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/404.html" timestamp="1529263145711">
+        <mark key="[" line="70" column="59" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/hss-ctf/error.html" timestamp="1528675169770">
+        <mark key="[" line="4" column="24" />
+        <mark key="]" line="4" column="24" />
+        <mark key="." line="4" column="24" />
+      </file>
+      <file name="$USER_HOME$/Project-Pride/example.html" timestamp="1529266407338">
+        <mark key="[" line="9" column="6" />
+        <mark key="]" line="5" column="6" />
+        <mark key="^" line="5" column="6" />
+        <mark key="." line="5" column="6" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="1" column="23" filename="$USER_HOME$/WWP_GradeCalculator/templates/management.html" />
+      <jump line="11" column="4" filename="$USER_HOME$/WWP_GradeCalculator/README.md" />
+      <jump line="42" column="75" filename="$USER_HOME$/WWP_GradeCalculator/templates/test.html" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>WWP_GradeCalculator</text>
+      </register>
+      <register name="-" type="4">
+        <text>WWP_GradeCalculator</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxGcm9udGVuZFw+</text>
+      </register>
+      <register name="0" type="4">
+        <text>orange</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIDwhLS0gdGVtcGxhdGUK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIDwhLS0tLT4K</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cgo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">eyUgZW5kYmxvY2sgJX0K</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">eyUgYmxvY2sgY3VzdG9tc2NyaXB0cyAlfQo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHslIGJsb2NrIGNvbnRlbnQgJX0K</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxGcm9udGVuZFw+</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxGcm9udGVuZFw+</last-pattern>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry encoding="base64">XDxGcm9udGVuZFw+</entry>
+      </history-search>
+      <history-cmd>
+        <entry>q</entry>
+        <entry>wq</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

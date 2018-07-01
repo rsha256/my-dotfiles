@@ -1,0 +1,97 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Temp/Yee.ipynb" />
+        <option value="$USER_HOME$/PythonProjects/p2" />
+        <option value="$USER_HOME$/AppData/Local/Temp/pptx_handler.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/makespp_CNN.py" />
+        <option value="$USER_HOME$/tempdir" />
+        <option value="$USER_HOME$/Documents/HSSinfo" />
+      </list>
+    </option>
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/AppData/Local/Temp/Yee.ipynb">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4892.64" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1529719516388" />
+              <option name="buildTimestamp" value="1526389769797" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/download_pptx.py">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4445.76" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1526599250463" />
+              <option name="buildTimestamp" value="1523292137267" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/makespp_CNN.py">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4892.64" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1527359824353" />
+              <option name="buildTimestamp" value="1526389760706" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/pptx_handler.py">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4892.64" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1527451613708" />
+              <option name="buildTimestamp" value="1526389754099" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/HSSinfo">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4892.64" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1527037094408" />
+              <option name="buildTimestamp" value="1526389778748" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PythonProjects/p2">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4892.64" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1529461535746" />
+              <option name="buildTimestamp" value="1526389778544" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/tempdir">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-181.4892.64" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1527037094408" />
+              <option name="buildTimestamp" value="1526389778748" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/PythonProjects" />
+  </component>
+</application>

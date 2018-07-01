@@ -1,0 +1,80 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/WWP_GradeCalculator" />
+        <option value="$USER_HOME$/WebstormProjects/MyCordovaApp" />
+        <option value="$USER_HOME$/Project-Pride" />
+        <option value="$USER_HOME$/SouthHacks-Website" />
+        <option value="$USER_HOME$/hss-ctf" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/WWP_GradeCalculator" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/WWP_GradeCalculator" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Project-Pride">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-181.5281.31" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1529970341446" />
+              <option name="buildTimestamp" value="1528989298165" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/SouthHacks-Website">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-181.5087.27" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528812486080" />
+              <option name="buildTimestamp" value="1526930303508" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WWP_GradeCalculator">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-181.5281.31" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1530314603860" />
+              <option name="buildTimestamp" value="1528989281217" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WebstormProjects/MyCordovaApp">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-181.5281.31" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1530314369030" />
+              <option name="buildTimestamp" value="1528989281217" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/hss-ctf">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="WS-181.5087.27" />
+              <option name="productionCode" value="WS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1528810683542" />
+              <option name="buildTimestamp" value="1526930303508" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/WebstormProjects" />
+  </component>
+</application>

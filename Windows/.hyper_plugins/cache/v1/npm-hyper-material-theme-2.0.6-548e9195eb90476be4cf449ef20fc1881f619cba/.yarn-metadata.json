@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "name": "hyper-material-theme",
+    "version": "2.0.6",
+    "main": "index.js",
+    "homepage": "https://github.com/equinusocio/hyper-material-theme",
+    "description": "The offical Material Theme for Hyper.app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/equinusocio/hyper-material-theme.git"
+    },
+    "keywords": [
+      "hyperterm",
+      "hyper",
+      "hyper.app",
+      "material",
+      "material theme"
+    ],
+    "author": {
+      "name": "Mattia Astorino",
+      "email": "astorino.design@gmail.com"
+    },
+    "license": "MIT",
+    "_registry": "npm",
+    "_loc": "C:\\Users\\rahul\\.hyper_plugins\\cache\\v1\\npm-hyper-material-theme-2.0.6-548e9195eb90476be4cf449ef20fc1881f619cba\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "# Material Theme for [Hyper](https://hyper.is) <img width=\"32\" alt=\"Hyper Material Theme\" src=\"https://cloud.githubusercontent.com/assets/10454741/21241774/9172ddb6-c311-11e6-91ee-e4225ab9560a.gif\">\n\n[![Codacy Badge](https://api.codacy.com/project/badge/Grade/09664dda15e84bdf8d041a18b9dc7c73)](https://www.codacy.com/app/astorino-design/hyper-material-theme?utm_source=github.com&utm_medium=referral&utm_content=equinusocio/hyper-material-theme&utm_campaign=badger)\n\n<img width=\"480\" alt=\"Hyper Material Theme\" src=\"https://cloud.githubusercontent.com/assets/10454741/21243792/bbaf728e-c31a-11e6-972f-0995e77a32a0.png\">\n\nThis is the official [Material Theme](https://github.com/equinusocio/material-theme) porting for [Hyper App](https://hyper.is).\n\n\n## 1. Installation\n\nJust edit your `~/.hyper.js` file (Hyper > Preferences...) and add `hyper-material-theme` to `plugins: []` array.\n\n```js\n...\nplugins: ['hyper-material-theme'],\n...\n```\n\n\n## 2. Configuration\nThis theme provides settings that you MUST add in your `~/.hyper.js` file **directly after** the colors object.\n\n```js\n    colors: {...\n    },\n\n    MaterialTheme: {\n        // Set the theme variant,\n        // OPTIONS: 'Darker', 'Palenight', ''\n        theme: '',\n\n        // [Optional] Set the rgba() app background opacity, useful when enableVibrance is true\n        // OPTIONS: From 0.1 to 1\n        backgroundOpacity: '1',\n\n        // [Optional] Set the accent color for the current active tab\n        accentColor: '#64FFDA',\n\n        // [Optional] Mac Only. Need restart. Enable the vibrance and blurred background\n        // OPTIONS: 'dark', 'ultra-dark', 'bright'\n        // NOTE: The backgroundOpacity should be between 0.1 and 0.9 to see the effect.\n        vibrancy: 'dark'\n    },\n\n    // other configs..\n```\n**Then restart the app**\n",
+    "licenseText": "MIT License\n\nCopyright (c) 2016 Mattia Astorino\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-material-theme/-/hyper-material-theme-2.0.6.tgz#548e9195eb90476be4cf449ef20fc1881f619cba",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-material-theme/-/hyper-material-theme-2.0.6.tgz",
+    "hash": "548e9195eb90476be4cf449ef20fc1881f619cba",
+    "registry": "npm",
+    "packageName": "hyper-material-theme"
+  },
+  "registry": "npm",
+  "hash": "548e9195eb90476be4cf449ef20fc1881f619cba"
+}

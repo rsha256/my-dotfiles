@@ -1,0 +1,18 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080@120dpi" x="689" y="143" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080@120dpi" x="963" y="473" />
+    <location key="#Notifications.0.0.1920.1080@120dpi" x="648" y="178" />
+    <location key="SettingsEditor.0.0.1920.1080@120dpi" x="601" y="0" />
+    <location key="find.popup.0.0.1920.1080@120dpi" x="694" y="68" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080@120dpi" x="624" y="216" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080@120dpi" x="653" y="276" />
+    <location key="SettingsEditor.5760.0.3840.2160@288dpi" x="6207" y="3" />
+    <location key="#Inspections.5760.0.3840.2160@288dpi" x="6582" y="102" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@144dpi" x="632" y="146" />
+    <location key="find.popup.0.0.1920.1080@144dpi" x="648" y="0" />
+    <size key="SettingsEditor.0.0.1920.1080@120dpi" width="1230" height="984" />
+    <size key="find.popup.0.0.1920.1080@120dpi" width="662" height="1013" />
+    <size key="find.popup.0.0.1920.1080@144dpi" width="773" height="1083" />
+  </component>
+</application>

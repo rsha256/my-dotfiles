@@ -1,0 +1,119 @@
+{
+  "Version": "1.0.0.0",
+  "MountPoints": [
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "b2033b52-2ec6-4bc0-a131-6ff917f97e36",
+      "Place": "C:\\Users\\rahul\\.templateengine\\dotnetcli\\v2.1.105\\packages\\microsoft.dotnet.common.itemtemplates.1.0.0-beta3-20171117-314.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "f1e2b013-e846-42e7-8a08-935beb0a791d",
+      "Place": "C:\\Users\\rahul\\.templateengine\\dotnetcli\\v2.1.105\\packages\\microsoft.dotnet.common.projecttemplates.2.0.1.0.0-beta3-20171117-314.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "4b26ff4b-96b5-4075-8a17-c08ba7c1696c",
+      "Place": "C:\\Users\\rahul\\.templateengine\\dotnetcli\\v2.1.105\\packages\\microsoft.dotnet.test.projecttemplates.2.0.1.0.1-beta3-20180227-1423531.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "c4743525-3994-434f-8935-a5513614ae4e",
+      "Place": "C:\\Users\\rahul\\.templateengine\\dotnetcli\\v2.1.105\\packages\\microsoft.dotnet.web.itemtemplates.2.0.7.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "9a7c5b55-309d-4cb3-8378-57b1f55bbc89",
+      "Place": "C:\\Users\\rahul\\.templateengine\\dotnetcli\\v2.1.105\\packages\\microsoft.dotnet.web.projecttemplates.2.0.2.0.7.nupkg"
+    },
+    {
+      "ParentMountPointId": "00000000-0000-0000-0000-000000000000",
+      "MountPointFactoryId": "94e92610-cf4c-4f6d-aeb6-9e42dde1899d",
+      "MountPointId": "9f2f5ce2-dcf6-47e0-89e9-dda008b399ca",
+      "Place": "C:\\Users\\rahul\\.templateengine\\dotnetcli\\v2.1.105\\packages\\microsoft.dotnet.web.spa.projecttemplates.2.0.7.nupkg"
+    }
+  ],
+  "ComponentGuidToAssemblyQualifiedName": {
+    "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.RunnableProjectGenerator, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "10919118-4e13-4fa9-825c-3b4da855578e": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.CaseChangeMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "11c6eacf-8d24-42fd-8fc6-84063fcd8f14": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.CoalesceMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "370996fe-2943-4aed-b2f6-ec03f0b75b4a": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.ConstantMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "bb625f71-6404-4550-98af-b2e546f46c5f": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.EvaluateMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "d49b3690-b1e5-410f-a260-e1d7e873d8b2": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.GeneratePortNumberMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "10919008-4e13-4fa8-825c-3b4da855578e": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.GuidMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "f2b423d7-3c23-4489-816a-41d8d2a98596": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.NowMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "642e0443-f82b-4a4b-a797-cc1eb42221ae": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.ProcessValueFormMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "011e8dc1-8544-4360-9b40-65fd916049b7": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.RandomMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "8a4d4937-e23f-426d-8398-3bdbd1873adb": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.RegexMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "b57d64e0-9b4f-4abe-9366-711170fd5294": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.SwitchMacro, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3147965a-08e5-4523-b869-02c8e9a8aaa1": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.BalancedNestingConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3e8bcbf0-d631-45ba-a12d-fbf1de03aa38": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.ConditionalConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "a1e27a4b-9608-47f1-b3b8-f70df62dc521": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.FlagsConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3fae1942-7257-4247-b44d-2dde07cb4a4a": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.IncludeConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3d33b3bf-f40e-43eb-a14d-f40516f880cd": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.RegionConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "62db7f1f-a10e-46f0-953f-a28a03a81cd1": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.ReplacementConfig, Microsoft.TemplateEngine.Orchestrator.RunnableProjects, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "db5bf8d8-6181-496a-97da-58616e135701": "Microsoft.TemplateEngine.Cli.NupkgUpdater, Microsoft.TemplateEngine.Cli, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "d396686c-de0e-4de6-906d-291cd29fc5de": "Microsoft.TemplateEngine.Cli.PostActionProcessors.AddProjectsToSolutionPostAction, Microsoft.TemplateEngine.Cli, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "b17581d1-c5c9-4489-8f0a-004be667b814": "Microsoft.TemplateEngine.Cli.PostActionProcessors.AddReferencePostActionProcessor, Microsoft.TemplateEngine.Cli, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "cb9a6cf3-4f5c-4860-b9d2-03a574959774": "Microsoft.TemplateEngine.Cli.PostActionProcessors.ChmodPostActionProcessor, Microsoft.TemplateEngine.Cli, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "210d431b-a78b-4d2f-b762-4ed3e3ea9025": "Microsoft.TemplateEngine.Cli.PostActionProcessors.DotnetRestorePostActionProcessor, Microsoft.TemplateEngine.Cli, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "ac1156f7-bb77-4db8-b28f-24eebcca1e5c": "Microsoft.TemplateEngine.Cli.PostActionProcessors.InstructionDisplayPostActionProcessor, Microsoft.TemplateEngine.Cli, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+    "3a7c4b45-1f5d-4a30-959a-51b88e82b5d2": "Microsoft.TemplateEngine.Cli.PostActionProcessors.ProcessStartPostActionProcessor, Microsoft.TemplateEngine.Cli, Version=1.0.0.314, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+  },
+  "ProbingPaths": [
+    "C:\\Users\\rahul\\.templateengine\\dotnetcli\\v2.1.105\\content"
+  ],
+  "ComponentTypeToGuidList": {
+    "Microsoft.TemplateEngine.Abstractions.IGenerator": [
+      "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3"
+    ],
+    "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.IMacro": [
+      "10919118-4e13-4fa9-825c-3b4da855578e",
+      "11c6eacf-8d24-42fd-8fc6-84063fcd8f14",
+      "370996fe-2943-4aed-b2f6-ec03f0b75b4a",
+      "bb625f71-6404-4550-98af-b2e546f46c5f",
+      "d49b3690-b1e5-410f-a260-e1d7e873d8b2",
+      "10919008-4e13-4fa8-825c-3b4da855578e",
+      "f2b423d7-3c23-4489-816a-41d8d2a98596",
+      "642e0443-f82b-4a4b-a797-cc1eb42221ae",
+      "011e8dc1-8544-4360-9b40-65fd916049b7",
+      "8a4d4937-e23f-426d-8398-3bdbd1873adb",
+      "b57d64e0-9b4f-4abe-9366-711170fd5294"
+    ],
+    "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Macros.IDeferredMacro": [
+      "10919118-4e13-4fa9-825c-3b4da855578e",
+      "11c6eacf-8d24-42fd-8fc6-84063fcd8f14",
+      "370996fe-2943-4aed-b2f6-ec03f0b75b4a",
+      "d49b3690-b1e5-410f-a260-e1d7e873d8b2",
+      "10919008-4e13-4fa8-825c-3b4da855578e",
+      "f2b423d7-3c23-4489-816a-41d8d2a98596",
+      "011e8dc1-8544-4360-9b40-65fd916049b7",
+      "8a4d4937-e23f-426d-8398-3bdbd1873adb",
+      "b57d64e0-9b4f-4abe-9366-711170fd5294"
+    ],
+    "Microsoft.TemplateEngine.Orchestrator.RunnableProjects.Config.IOperationConfig": [
+      "3147965a-08e5-4523-b869-02c8e9a8aaa1",
+      "3e8bcbf0-d631-45ba-a12d-fbf1de03aa38",
+      "a1e27a4b-9608-47f1-b3b8-f70df62dc521",
+      "3fae1942-7257-4247-b44d-2dde07cb4a4a",
+      "3d33b3bf-f40e-43eb-a14d-f40516f880cd",
+      "62db7f1f-a10e-46f0-953f-a28a03a81cd1"
+    ],
+    "Microsoft.TemplateEngine.Cli.IUpdater": [
+      "db5bf8d8-6181-496a-97da-58616e135701"
+    ],
+    "Microsoft.TemplateEngine.Cli.PostActionProcessors.IPostActionProcessor": [
+      "d396686c-de0e-4de6-906d-291cd29fc5de",
+      "b17581d1-c5c9-4489-8f0a-004be667b814",
+      "cb9a6cf3-4f5c-4860-b9d2-03a574959774",
+      "210d431b-a78b-4d2f-b762-4ed3e3ea9025",
+      "ac1156f7-bb77-4db8-b28f-24eebcca1e5c",
+      "3a7c4b45-1f5d-4a30-959a-51b88e82b5d2"
+    ]
+  }
+}
