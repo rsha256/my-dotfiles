@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/usr/share/nvim'
+let g:netrw_dirhist_2='/mnt/c/Users/rahul/Project-Pride/.git'
+let g:netrw_dirhist_3='/mnt/c/Users/rahul/Project-Pride/.git/objects'
+let g:netrw_dirhist_4='/mnt/c/Users/rahul/PythonProjects/imagecrawler'
+let g:netrw_dirhist_5='/mnt/c/Users/rahul/PythonProjects/imagecrawler/imagecrawler'

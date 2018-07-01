@@ -1,0 +1,10 @@
+{
+  "daemonVersion": "3.20.0",
+  "latestVersions": {
+    "latest": {
+      "@ionic/cli-plugin-proxy": "1.5.8",
+      "@ionic/cli-utils": "1.19.2",
+      "ionic": "3.20.0"
+    }
+  }
+}
