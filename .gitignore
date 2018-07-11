@@ -1,3 +1,8 @@
 ## Ignored files
 
 *.pyc
+
+
+## Ignored (private) folders
+.ssh/
+
