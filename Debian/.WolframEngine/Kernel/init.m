@@ -1,2 +1,0 @@
-(** User Mathematica initialization file **)
-
