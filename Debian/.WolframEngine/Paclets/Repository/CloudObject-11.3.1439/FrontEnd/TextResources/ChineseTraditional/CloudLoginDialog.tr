@@ -1,0 +1,19 @@
+@|
+@|
+@@resource CloudLoginDialogStrings
+{
+"CloudSubheaderText" -> "\:8acb\:4f7f\:7528\:60a8\:7684 Wolfram ID \:767b\:5165",
+"WolframIDLabel" -> "\:96fb\:5b50\:90f5\:4ef6",
+"PasswordLabel" -> "\:5bc6\:78bc", 
+"ForgotPasswordLabel" -> "\:5fd8\:8a18\:5bc6\:78bc\:ff1f",
+"CloudAccountQuery" -> "\:6c92\:6709 Wolfram ID\:ff1f", 
+"SignInButtonLabel" -> "\:767b\:5165", 
+"JoinNowButtonLabel" -> "\:8a2d\:7acb\:65b0\:5e33\:865f", 
+"CancelButtonLabel" -> "\:53d6\:6d88", 
+"RemeberMeLabel" -> "\:8a18\:4f4f\:6211", 
+"WindowTitle" -> "\:767b\:5165",
+
+(*IntegratedServices Messages*)
+"ServiceCredits" -> "This action calls Integrated Services,\nwhich use Service Credits. \!\(\*ButtonBox[PaneSelectorBox[{False -> \"\\\"Learn more \\[RightGuillemet]\\\"\", Rule[True, StyleBox[\"\\\"Learn more \\[RightGuillemet]\\\"\", \"HyperlinkActive\"]]}, Dynamic[CurrentValue[\"MouseOver\"]], Rule[BaseStyle, List[\"Hyperlink\"]], Rule[FrameMargins, 0], Rule[ImageSize, Automatic]], Rule[StripOnInput, True], Rule[BaseStyle, \"Hyperlink\"], Rule[ButtonData, List[URL[\"http://www.wolfram.com/service-credits\"], None]], Rule[ButtonNote, \"http://www.wolfram.com/service-credits\"]]\)"
+}
+@|

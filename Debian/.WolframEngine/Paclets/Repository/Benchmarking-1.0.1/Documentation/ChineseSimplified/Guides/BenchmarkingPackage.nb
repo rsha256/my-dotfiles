@@ -1,0 +1,340 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      9053,        331]
+NotebookOptionsPosition[      5986,        231]
+NotebookOutlinePosition[      6803,        256]
+CellTagsIndexPosition[      6760,        253]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "New in: ",
+ Cell["XX", "HistoryData",
+  CellTags->"New"],
+ " | Modified in: ",
+ Cell[" 8", "HistoryData",
+  CellTags->"Modified"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete"],
+ " | Excised in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Excised"]
+}], "History",
+ CellChangeTimes->{{3.481543128798911*^9, 3.48154312879895*^9}, {
+  3.60786406584848*^9, 3.6078640830569935`*^9}},
+ CellID->1247902091],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->1122911449],
+
+Cell["Guide", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->686433507],
+
+Cell["Benchmarking Package", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->605800465],
+
+Cell["", "Categorization",
+ CellLabel->"Context",
+ CellID->468444828],
+
+Cell["Benchmarking/guide/BenchmarkingPackage", "Categorization",
+ CellLabel->"URI"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Synonyms", "SynonymsSection"],
+
+Cell["Benchmarking", "Synonyms",
+ CellChangeTimes->{{3.429367486957672*^9, 3.429367489104595*^9}},
+ CellID->29671657]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->1427428552],
+
+Cell["XXXX", "Keywords",
+ CellID->1251852827]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Details", "DetailsSection"],
+
+Cell["XXXX", "Details",
+ CellLabel->"Lead"],
+
+Cell["XXXX", "Details",
+ CellLabel->"Developers"],
+
+Cell["XXXX", "Details",
+ CellLabel->"Authors"],
+
+Cell["XXXX", "Details",
+ CellLabel->"Feature Name"],
+
+Cell["XXXX", "Details",
+ CellLabel->"QA"],
+
+Cell["XXXX", "Details",
+ CellLabel->"DA"],
+
+Cell["XXXX", "Details",
+ CellLabel->"Docs"],
+
+Cell["XXXX", "Details",
+ CellLabel->"Features Page Notes"],
+
+Cell["XXXX", "Details",
+ CellLabel->"Comments"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Benchmarking Package", "GuideTitle",
+ CellChangeTimes->{{3.36706479955252*^9, 3.3670648018025627`*^9}},
+ CellID->942062912],
+
+Cell[TextData[ButtonBox["Introductory Tutorial",
+ BaseStyle->"GuideMainTutorial"]], "GuideMainTutorial",
+ CellID->1580956551],
+
+Cell[TextData[ButtonBox["Test Drive",
+ BaseStyle->"GuideTestDrive"]], "GuideTestDrive",
+ CellID->321588326]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "GuideFunctionsSection",
+ CellID->1866139230],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["Benchmark",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/Benchmark"]], "InlineGuideFunction"],
+ " \[LongDash] run the ",
+ StyleBox["WolframMark",
+  FontSlant->"Italic"],
+ " benchmark and return raw data"
+}], "GuideText",
+ CellDingbat->Cell[
+   BoxData[
+    TooltipBox[
+     Cell["9~", "ModInfo", "BrightFlag"], "9~"]]],
+ CellChangeTimes->{{3.367064818959142*^9, 3.3670648201779156`*^9}, {
+   3.3670648802259436`*^9, 3.3670648920074196`*^9}, {3.3670650187598534`*^9, 
+   3.3670650187754784`*^9}, 3.3670650551824274`*^9, {3.433165605171956*^9, 
+   3.43316560526556*^9}, {3.5557591208670597`*^9, 3.555759123151939*^9}, {
+   3.60786404247304*^9, 3.6078640491204243`*^9}},
+ CellID->203374175],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["BenchmarkReport",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/BenchmarkReport"]], 
+  "InlineGuideFunction"],
+ " \[LongDash] run the benchmark and compare the results to other known \
+systems"
+}], "GuideText",
+ CellChangeTimes->{{3.367064824959257*^9, 3.367064826803043*^9}, {
+  3.36706489569499*^9, 3.367064942492764*^9}, {3.3670650208380184`*^9, 
+  3.367065020869269*^9}},
+ CellID->1463276848],
+
+Cell[CellGroupData[{
+
+Cell["\t", "GuideDelimiter",
+ CellID->311258892],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["$BenchmarkSystems",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/$BenchmarkSystems"]], 
+  "InlineGuideFunction"],
+ " \[LongDash] systems for which benchmark data is available"
+}], "GuideText",
+ CellChangeTimes->{{3.3670649652275753`*^9, 3.36706498472795*^9}, {
+  3.367065022963059*^9, 3.3670650229786844`*^9}},
+ CellID->432101389]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tutorials", "GuideTutorialsSection",
+ CellChangeTimes->{3.380541279930646*^9},
+ CellID->415694126],
+
+Cell[TextData[ButtonBox["Benchmarking Package",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Benchmarking/tutorial/Benchmark"]], "GuideTutorial",
+ CellChangeTimes->{{3.385387053485798*^9, 3.3853870583920164`*^9}},
+ CellID->431939181]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["More About", "GuideMoreAboutSection",
+ CellChangeTimes->{3.380541280711916*^9},
+ CellID->23220180],
+
+Cell[TextData[ButtonBox["Wolfram System Setup",
+ BaseStyle->"Link",
+ ButtonData->"paclet:guide/WolframSystemSetup"]], "GuideMoreAbout",
+ CellChangeTimes->{{3.36819361752465*^9, 3.36819363291537*^9}, {
+  3.555846647124957*^9, 3.5558466496053567`*^9}},
+ CellID->584506160],
+
+Cell[TextData[ButtonBox["Tuning & Debugging",
+ BaseStyle->"Link",
+ ButtonData->"paclet:guide/TuningAndDebugging"]], "GuideMoreAbout",
+ CellChangeTimes->{{3.36819352994596*^9, 3.36819355591488*^9}},
+ CellID->252299663],
+
+Cell[TextData[ButtonBox["System Information",
+ BaseStyle->"Link",
+ ButtonData->"paclet:guide/SystemInformation"]], "GuideMoreAbout",
+ CellChangeTimes->{{3.385733015544724*^9, 3.385733022574399*^9}},
+ CellID->10615171],
+
+Cell[TextData[ButtonBox["Parallel Computing",
+ BaseStyle->"Link",
+ ButtonData->"paclet:guide/ParallelComputing"]], "GuideMoreAbout",
+ CellChangeTimes->{{3.4289277685367146`*^9, 3.4289277759898877`*^9}},
+ CellID->650503844]
+}, Open  ]],
+
+Cell["Related Links", "GuideRelatedLinksSection",
+ CellID->415694148]
+},
+WindowSize->{783, 767},
+WindowMargins->{{Automatic, 160}, {33, Automatic}},
+TaggingRules->{
+ "DAHPreferences" -> {
+   "DefaultUSERCVSDIR" -> 
+    "C:\\Users\\joycet\\cvs_checkouts_DAHDefault\\Pubs\\Internal\\joycet", 
+    "DAHEmailOptions" -> {
+     "From" -> "joycet@wolfram.com", "To" -> "q-dpt@wolfram.com", "Subject" -> 
+      "bonk detected: ", "Server" -> "mail.wolfram.com"}, "DQARevisionNumber" -> 
+    "1"}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (April 29, 2014)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "GuidePageStyles.nb", 
+  CharacterEncoding -> "WindowsANSI"],
+PrivateNotebookOptions -> {"NotebookAuthor" -> ""}
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 440, 16, 22, "History",
+ CellID->1247902091],
+Cell[CellGroupData[{
+Cell[1010, 40, 68, 1, 27, "CategorizationSection",
+ CellID->1122911449],
+Cell[1081, 43, 78, 2, 36, "Categorization",
+ CellID->686433507],
+Cell[1162, 47, 93, 2, 36, "Categorization",
+ CellID->605800465],
+Cell[1258, 51, 69, 2, 36, "Categorization",
+ CellID->468444828],
+Cell[1330, 55, 83, 1, 36, "Categorization"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1450, 61, 35, 0, 17, "SynonymsSection"],
+Cell[1488, 63, 117, 2, 21, "Synonyms",
+ CellID->29671657]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1642, 70, 56, 1, 17, "KeywordsSection",
+ CellID->1427428552],
+Cell[1701, 73, 45, 1, 21, "Keywords",
+ CellID->1251852827]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1783, 79, 33, 0, 17, "DetailsSection"],
+Cell[1819, 81, 43, 1, 39, "Details"],
+Cell[1865, 84, 49, 1, 39, "Details"],
+Cell[1917, 87, 46, 1, 39, "Details"],
+Cell[1966, 90, 51, 1, 39, "Details"],
+Cell[2020, 93, 41, 1, 39, "Details"],
+Cell[2064, 96, 41, 1, 39, "Details"],
+Cell[2108, 99, 43, 1, 39, "Details"],
+Cell[2154, 102, 58, 1, 39, "Details"],
+Cell[2215, 105, 47, 1, 39, "Details"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2299, 111, 129, 2, 76, "GuideTitle",
+ CellID->942062912],
+Cell[2431, 115, 125, 2, 19, "GuideMainTutorial",
+ CellID->1580956551],
+Cell[2559, 119, 107, 2, 19, "GuideTestDrive",
+ CellID->321588326]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2703, 126, 54, 1, 68, "GuideFunctionsSection",
+ CellID->1866139230],
+Cell[2760, 129, 748, 19, 23, "GuideText",
+ CellID->203374175],
+Cell[3511, 150, 456, 12, 23, "GuideText",
+ CellID->1463276848],
+Cell[CellGroupData[{
+Cell[3992, 166, 48, 1, 26, "GuideDelimiter",
+ CellID->311258892],
+Cell[4043, 169, 391, 10, 23, "GuideText",
+ CellID->432101389]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4483, 185, 104, 2, 70, "GuideTutorialsSection",
+ CellID->415694126],
+Cell[4590, 189, 229, 4, 20, "GuideTutorial",
+ CellID->431939181]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4856, 198, 104, 2, 70, "GuideMoreAboutSection",
+ CellID->23220180],
+Cell[4963, 202, 270, 5, 20, "GuideMoreAbout",
+ CellID->584506160],
+Cell[5236, 209, 217, 4, 20, "GuideMoreAbout",
+ CellID->252299663],
+Cell[5456, 215, 217, 4, 20, "GuideMoreAbout",
+ CellID->10615171],
+Cell[5676, 221, 222, 4, 20, "GuideMoreAbout",
+ CellID->650503844]
+}, Open  ]],
+Cell[5913, 228, 69, 1, 70, "GuideRelatedLinksSection",
+ CellID->415694148]
+}
+]
+*)
+
+(* End of internal cache information *)

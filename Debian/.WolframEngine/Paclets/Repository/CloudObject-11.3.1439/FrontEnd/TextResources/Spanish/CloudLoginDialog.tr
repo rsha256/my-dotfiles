@@ -1,0 +1,19 @@
+@|
+@|
+@@resource CloudLoginDialogStrings
+{
+"CloudSubheaderText" -> "Inicie sesi\[OAcute]n con su Wolfram ID", 
+"WolframIDLabel" -> "Correo electr\[OAcute]nico", 
+"PasswordLabel" -> "Contrase\[NTilde]a", 
+"ForgotPasswordLabel" -> "\[DownQuestion]Olvid\[OAcute] su contrase\[NTilde]a?",
+"CloudAccountQuery" -> "\[DownQuestion]No tiene un Wolfram ID?", 
+"SignInButtonLabel" -> "Inicie sesi\[OAcute]n",
+"JoinNowButtonLabel" -> "Cree una cuenta", 
+"CancelButtonLabel" -> "Cancelar",
+"RemeberMeLabel" -> "Recordarme",
+"WindowTitle" -> "Inicie sesi\[OAcute]n",
+
+(*IntegratedServices Messages*)
+"ServiceCredits" -> "This action calls Integrated Services,\nwhich use Service Credits. \!\(\*ButtonBox[PaneSelectorBox[{False -> \"\\\"Learn more \\[RightGuillemet]\\\"\", Rule[True, StyleBox[\"\\\"Learn more \\[RightGuillemet]\\\"\", \"HyperlinkActive\"]]}, Dynamic[CurrentValue[\"MouseOver\"]], Rule[BaseStyle, List[\"Hyperlink\"]], Rule[FrameMargins, 0], Rule[ImageSize, Automatic]], Rule[StripOnInput, True], Rule[BaseStyle, \"Hyperlink\"], Rule[ButtonData, List[URL[\"http://www.wolfram.com/service-credits\"], None]], Rule[ButtonNote, \"http://www.wolfram.com/service-credits\"]]\)"
+}
+@|

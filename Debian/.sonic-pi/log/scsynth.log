@@ -1,0 +1,12 @@
+# Starting SuperCollider 2018-04-01 20:54:31
+Found 0 LADSPA plugins
+JackDriver: client name is 'SuperCollider'
+SC_AudioDriver: sample rate = 44100.000000, driver's block size = 2048
+SuperCollider 3 server ready (debug build).
+JackDriver: max output latency 139.3 ms
+late 0.135415892
+FAILURE IN SERVER /n_free Node 505 not found
+FAILURE IN SERVER /n_free Node 490 not found
+FAILURE IN SERVER /n_free Node 506 not found
+FAILURE IN SERVER /n_free Node 612 not found
+FAILURE IN SERVER /n_free Node 616 not found

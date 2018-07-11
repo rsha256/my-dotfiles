@@ -1,0 +1,52 @@
+No pids store found here: /tmp/sonic-pi-pids
+Exiting
+Creating pids store: /tmp/sonic-pi-pids
+Started [22991] [-] ruby -E utf-8 /opt/sonic-pi/app/gui/qt/../../../app/server/bin/sonic-pi-server.rb -u 4557 4558 4556 4556 4559 4560 4561 4562 [-] /tmp/sonic-pi-pids/22991
+Started [23058] [-] sh [-] /tmp/sonic-pi-pids/23058
+Started [23058] [-] sh [-] /tmp/sonic-pi-pids/23058
+Started [23111] [-] scsynth -u 4556 -a 1024 -m 131072 -D 0 -R 0 -l 1 -z 128 -c 128 -U /usr/lib/SuperCollider/plugins:/opt/sonic-pi/app/server/native/raspberry/extra-ugens/ -i 2 -o 2 -b 4096 [-] /tmp/sonic-pi-pids/23111
+Started [23178] [-] sh -c erl -pz "/opt/sonic-pi/app/server/erlang" -s pi_server start 4560 [-] /tmp/sonic-pi-pids/23178
+Started [23216] [-] sh -c '/opt/sonic-pi/app/server/native/raspberry/osmid/o2m' -b -i 4561 -O 4562 -m 6 [-] /tmp/sonic-pi-pids/23216
+Started [23250] [-] sh -c '/opt/sonic-pi/app/server/native/raspberry/osmid/m2o' -b -o 4562 -m 6 'Sonic Pi' [-] /tmp/sonic-pi-pids/23250
+
+
+Clearing pids: ["23111", "23058", "23178", "23216", "22991", "23250"]
+
+Clearing [23111]
+  -- command scsynth -u 4556 -a 1024 -m 131072 -D 0 -R 0 -l 1 -z 128 -c 128 -U /usr/lib/SuperCollider/plugins:/opt/sonic-pi/app/server/native/raspberry/extra-ugens/ -i 2 -o 2 -b 4096
+  -- removing /tmp/sonic-pi-pids/23111
+  -- unable to get ProcTable info for: 23111
+  -- process: 23111 not running
+
+Clearing [23058]
+  -- command sh
+  -- removing /tmp/sonic-pi-pids/23058
+  -- unable to get ProcTable info for: 23058
+  -- process: 23058 not running
+
+Clearing [23178]
+  -- command sh -c erl -pz "/opt/sonic-pi/app/server/erlang" -s pi_server start 4560
+  -- removing /tmp/sonic-pi-pids/23178
+  -- politely killing 23178
+  -- killed 23178
+
+Clearing [23216]
+  -- command sh -c '/opt/sonic-pi/app/server/native/raspberry/osmid/o2m' -b -i 4561 -O 4562 -m 6
+  -- removing /tmp/sonic-pi-pids/23216
+  -- unable to get ProcTable info for: 23216
+  -- process: 23216 not running
+
+Clearing [22991]
+  -- command ruby -E utf-8 /opt/sonic-pi/app/gui/qt/../../../app/server/bin/sonic-pi-server.rb -u 4557 4558 4556 4556 4559 4560 4561 4562
+  -- removing /tmp/sonic-pi-pids/22991
+  -- unable to get ProcTable info for: 22991
+  -- process: 22991 not running
+
+Clearing [23250]
+  -- command sh -c '/opt/sonic-pi/app/server/native/raspberry/osmid/m2o' -b -o 4562 -m 6 'Sonic Pi'
+  -- removing /tmp/sonic-pi-pids/23250
+  -- unable to get ProcTable info for: 23250
+  -- process: 23250 not running
+
+Finished clearing pids
+

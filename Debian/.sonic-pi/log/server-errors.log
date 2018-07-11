@@ -1,0 +1,20 @@
+ALSA: Cannot open PCM device alsa_pcm for capture. Falling back to playback-only mode
+JackEngine::XRun: client = SuperCollider was not finished, state = Running
+JackAudioDriver::ProcessGraphAsyncMaster: Process error
+JackEngine::XRun: client = SuperCollider was not finished, state = Triggered
+JackAudioDriver::ProcessGraphAsyncMaster: Process error
+JackEngine::XRun: client = SuperCollider was not finished, state = Running
+JackAudioDriver::ProcessGraphAsyncMaster: Process error
+JackEngine::XRun: client = SuperCollider was not finished, state = Triggered
+JackAudioDriver::ProcessGraphAsyncMaster: Process error
+JackEngine::XRun: client = SuperCollider was not finished, state = Running
+JackAudioDriver::ProcessGraphAsyncMaster: Process error
+JackEngine::XRun: client = SuperCollider was not finished, state = Running
+JackAudioDriver::ProcessGraphAsyncMaster: Process error
+JackEngine::XRun: client = SuperCollider was not finished, state = Triggered
+JackAudioDriver::ProcessGraphAsyncMaster: Process error
+[xcb] Unknown sequence number while processing reply
+[xcb] Most likely this is a multi-threaded client and XInitThreads has not been called
+[xcb] Aborting, sorry about that.
+scsynth: ../../src/xcb_io.c:630: _XReply: Assertion `!xcb_xlib_threads_sequence_lost' failed.
+Jack main caught signal 15

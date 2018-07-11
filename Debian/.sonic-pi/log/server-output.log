@@ -1,0 +1,84 @@
+Sonic Pi server booting...
+Using protocol: udp
+Detecting port numbers...
+Send port: 4558
+Listen port: 4557
+  - OK
+Scsynth port: 4556
+  - OK
+Scsynth send port: 4556
+  - OK
+OSC cues port: 4559
+  - OK
+Erlang port: 4560
+  - OK
+OSC MIDI out port: 4561
+  - OK
+OSC MIDI in port: 4562
+  - OK
+Booting server...
+
+
+Booting Sonic Pi
+----------------
+
+Booting on Raspberry Pi
+Jackd not running on system. Starting...
+jackdmp 1.9.11
+Copyright 2001-2005 Paul Davis and others.
+Copyright 2004-2014 Grame.
+jackdmp comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; see the file COPYING for details
+JACK server starting in realtime mode with priority 10
+self-connect-mode is "Don't restrict self connect requests"
+audio_reservation_init
+Acquire audio card Audio0
+creating alsa driver ... hw:0|hw:0|2048|3|44100|0|2|nomon|swmeter|-|32bit
+configuring for 44100Hz, period = 2048 frames (46.4 ms), buffer = 3 periods
+ALSA: final selected sample format for playback: 16bit little-endian
+ALSA: use 3 periods for playback
+Started [23058] [-] sh [-] /tmp/sonic-pi-pids/23058
+Started [23058] [-] sh [-] /tmp/sonic-pi-pids/23058
+Boot - Starting the SuperCollider server...
+Boot - scsynth -u 4556 -a 1024 -m 131072 -D 0 -R 0 -l 1 -z 128 -c 128 -U /usr/lib/SuperCollider/plugins:/opt/sonic-pi/app/server/native/raspberry/extra-ugens/ -i 2 -o 2 -b 4096
+Started [23111] [-] scsynth -u 4556 -a 1024 -m 131072 -D 0 -R 0 -l 1 -z 128 -c 128 -U /usr/lib/SuperCollider/plugins:/opt/sonic-pi/app/server/native/raspberry/extra-ugens/ -i 2 -o 2 -b 4096 [-] /tmp/sonic-pi-pids/23111
+Boot - SuperCollider booted successfully.
+Boot - Connecting to the SuperCollider server...
+Boot - Sending /status to server: 127.0.0.1:4556
+Boot - Receiving ack from scsynth
+Boot - Server connection established
+Studio - Initialised SuperCollider Audio Server v3.7.0
+Studio - Resetting server
+Studio - Studio - clearing scsynth
+Studio - Studio - allocating audio bus
+Studio - Studio - Create Base Synth Groups
+Studio - Starting mixer
+Studio - Starting scope
+erl -pz "/opt/sonic-pi/app/server/erlang" -s pi_server start 4560
+Started [23178] [-] sh -c erl -pz "/opt/sonic-pi/app/server/erlang" -s pi_server start 4560 [-] /tmp/sonic-pi-pids/23178
+Studio - Spawning o2m with:
+    '/opt/sonic-pi/app/server/native/raspberry/osmid/o2m' -b -i 4561 -O 4562 -m 6
+Started [23216] [-] sh -c '/opt/sonic-pi/app/server/native/raspberry/osmid/o2m' -b -i 4561 -O 4562 -m 6 [-] /tmp/sonic-pi-pids/23216
+Studio - Spawning m2o with:
+    '/opt/sonic-pi/app/server/native/raspberry/osmid/m2o' -b -o 4562 -m 6 'Sonic Pi'
+Started [23250] [-] sh -c '/opt/sonic-pi/app/server/native/raspberry/osmid/m2o' -b -o 4562 -m 6 'Sonic Pi' [-] /tmp/sonic-pi-pids/23250
+Studio - Initialised MIDI subsystems
+This is Sonic Pi v3.0.1 running on raspberry with ruby api 2.3.0.
+Sonic Pi Server successfully booted.
+Studio - Pausing SuperCollider Audio Server
+Studio - Pausing SuperCollider Audio Server
+Studio - Pausing SuperCollider Audio Server
+Studio - Pausing SuperCollider Audio Server
+Studio - Pausing SuperCollider Audio Server
+Studio - Pausing SuperCollider Audio Server
+Studio - Pausing SuperCollider Audio Server
+Exiting - shutting down scsynth server...
+Sending /quit command to scsynth
+Stopping OSC server...
+Stopped OSC server...
+Server is exiting.
+Shutting down GUI...
+Goodbye :-)
+Released audio card Audio0
+audio_reservation_finish

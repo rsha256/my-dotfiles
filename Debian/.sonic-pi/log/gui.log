@@ -1,0 +1,38 @@
+[GUI] - Detecting port numbers...
+[GUI] - GUI OSC listen port 4558
+[GUI] -    port: 4558 [OK]
+[GUI] - Server OSC listen port 4557
+[GUI] -    port: 4557 [OK]
+[GUI] - Server incoming OSC cues port 4559
+[GUI] -    port: 4559 [OK]
+[GUI] - Scsynth port 4556
+[GUI] -    port: 4556 [OK]
+[GUI] - Server OSC out port 4558
+[GUI] - GUI OSC out port 4557
+[GUI] - Scsynth send port 4556
+[GUI] - Erlang router port 4560
+[GUI] -    port: 4560 [OK]
+[GUI] - OSC MIDI out port 4561
+[GUI] -    port: 4561 [OK]
+[GUI] - OSC MIDI in port 4562
+[GUI] -    port: 4562 [OK]
+[GUI] - Init script completed
+[GUI] - using default editor colours
+[GUI] - launching Sonic Pi Server:
+[GUI] - starting UDP OSC Server on port 4558...
+[GUI] - UDP OSC Server ready and listening
+[GUI] - Ruby server pid registered: 22991
+[GUI] - waiting for Sonic Pi Server to boot...
+.....................
+[GUI] - Sonic Pi Server successfully booted.
+[GUI] - waiting for Sonic Pi Server to respond...
+..
+[GUI] - Sonic Pi Server connection established
+[GUI] - loading workspaces
+[GUI] - stopping OSC server
+[GUI] - stopping UDP OSC Server...
+[GUI] - saving workspaces
+[GUI] - UDP OSC Server no longer listening
+[GUI] - asking server process to exit...
+[GUI] - executing exit script
+[GUI] - exiting. Cheerio :-)

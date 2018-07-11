@@ -1,0 +1,11 @@
+BlueJ run started: Sat Apr 21 18:12:08 UTC 2018
+BlueJ version 3.1.7b
+Java version 1.8.0_65
+Virtual machine: Java HotSpot(TM) Client VM 25.65-b01 (Oracle Corporation)
+Running on: Linux 4.14.30-v7+ (arm)
+Java Home: /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre
+----
+Opening project: /home/pi/MyJavaProjects
+1524334334532: Listening for JDWP connection on address: 127.0.0.1:45001
+Connected to debug VM via dt_socket transport...
+Communication with debug VM fully established.

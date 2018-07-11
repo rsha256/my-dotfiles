@@ -1,0 +1,15 @@
+(* 
+	Functions that use the auto-generated Entity lists 
+	t. sherlock
+*)
+{
+ "Entity"->{"EntityTypeNames.trie", 0},
+ "EntityClass"->{"EntityTypeNames.trie", 0},
+ "EntityClassList"->{"EntityTypeNames.trie"},
+ "EntityList"->{"EntityTypeNames.trie"},
+ "EntityProperties"->{"EntityTypeNames.trie"},
+ "EntityProperty"->{"EntityTypeNames.trie", {"EntityPropertyNames.trie", "DependsOnArgument"->1}, 0},
+ "EntityPropertyClass"->{"EntityTypeNames.trie", 0},
+ "RandomEntity"->{"EntityTypeNames.trie", 0},
+ "EntityValue" -> {"EntityTypeNames.trie", {"EntityPropertyNames.trie", "DependsOnArgument" -> 1}, "EntityValue_Annotation.trie"}
+}

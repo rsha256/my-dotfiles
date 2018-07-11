@@ -1,0 +1,36 @@
+
++--------------------------------+
++ This is the Sonic Pi IO Server +
++       Powered by Erlang        +
++     Listening on port 4560     +
++--------------------------------+
+
+
+Eshell V8.2.1  (abort with ^G)
+1> udp server timeout:1
+1> udp server timeout:2
+1> udp server timeout:3
+1> udp server timeout:4
+1> udp server timeout:5
+1> udp server timeout:6
+1> udp server timeout:7
+1> udp server timeout:8
+1> udp server timeout:9
+1> udp server timeout:10
+1> udp server timeout:11
+1> udp server timeout:12
+1> udp server timeout:13
+1> udp server timeout:14
+1> udp server timeout:15
+1> udp server timeout:16
+1> udp server timeout:17
+1> udp server timeout:18
+1> udp server timeout:19
+1> udp server timeout:20
+1> udp server timeout:21
+1> udp server timeout:22
+1> udp server timeout:23
+1> udp server timeout:24
+1> udp server timeout:25
+1> udp server timeout:26
+1> *** Terminating erlang (nonode@nohost)

@@ -1,0 +1,711 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     19553,        702]
+NotebookOptionsPosition[     14284,        510]
+NotebookOutlinePosition[     14957,        535]
+CellTagsIndexPosition[     14878,        530]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "New in: ",
+ Cell["?", "HistoryData",
+  CellTags->"New"],
+ " | Modified in: ",
+ Cell[" 8", "HistoryData",
+  CellTags->"Modified"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete"],
+ " | Excised in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Excised"]
+}], "History",
+ CellChangeTimes->{{3.4990080683642497`*^9, 3.4990080683642497`*^9}},
+ CellID->28587],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->22222],
+
+Cell["Symbol", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->19455],
+
+Cell["Benchmarking Package", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->2957],
+
+Cell["Benchmarking`", "Categorization",
+ CellLabel->"Context",
+ CellID->21173],
+
+Cell["Benchmarking/ref/BenchmarkReport", "Categorization",
+ CellLabel->"URI",
+ CellID->218201857],
+
+Cell["XXXX", "Categorization",
+ CellLabel->"Title Modifier"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Synonyms", "SynonymsSection"],
+
+Cell["XXXX", "Synonyms"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->564],
+
+Cell["XXXX", "Keywords",
+ CellID->24961]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Syntax Templates", "TemplatesSection",
+ CellID->24951],
+
+Cell[BoxData[
+ RowBox[{"BenchmarkReport", "[", 
+  RowBox[{"a", ",", "b", ",", "..."}], "]"}]], "Template",
+ CellChangeTimes->{{3.36907255889982*^9, 3.36907256029834*^9}},
+ CellLabel->"Additional Function Template",
+ CellID->434081869],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Arguments Pattern",
+ CellID->11975],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Local Variables",
+ CellID->31200],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Color Equal Signs",
+ CellID->28307]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Details", "DetailsSection",
+ CellID->214739462],
+
+Cell["XXXX", "Details",
+ CellLabel->"Lead",
+ CellID->2894182],
+
+Cell["XXXX", "Details",
+ CellLabel->"Developers",
+ CellID->713990070],
+
+Cell["XXXX", "Details",
+ CellLabel->"Authors",
+ CellID->683371250],
+
+Cell["XXXX", "Details",
+ CellLabel->"Feature Name",
+ CellID->18650948],
+
+Cell["XXXX", "Details",
+ CellLabel->"QA",
+ CellID->347140507],
+
+Cell["XXXX", "Details",
+ CellLabel->"DA",
+ CellID->145919925],
+
+Cell["XXXX", "Details",
+ CellLabel->"Docs",
+ CellID->341001909],
+
+Cell["XXXX", "Details",
+ CellLabel->"Features Page Notes",
+ CellID->222376811],
+
+Cell["XXXX", "Details",
+ CellLabel->"Comments",
+ CellID->70164168]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["BenchmarkReport", "ObjectName",
+ CellID->17243],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TooltipBox[Cell[" ", "ModInfo"],
+   " "]]],
+ Cell[BoxData[
+  RowBox[{"BenchmarkReport", "[", "]"}]], "InlineFormula"],
+ " \[LineSeparator]",
+ StyleBox["WolframMark",
+  FontSlant->"Italic"],
+ " \:30d9\:30f3\:30c1\:30de\:30fc\:30af\:3092\:5b9f\:884c\:3057\:ff0c\:3053\
+\:306e\:30b7\:30b9\:30c6\:30e0\:3068\:53c2\:7167\:30b7\:30b9\:30c6\:30e0\:306e\
+\:3044\:305a\:308c\:304b\:3068\:3092\:6bd4\:8f03\:3059\:308b\:30ec\:30dd\:30fc\
+\:30c8\:3092\:5225\:306e\:30ce\:30fc\:30c8\:30d6\:30c3\:30af\:306b\:51fa\:529b\
+\:3059\:308b\:ff0e\n",
+ Cell["   ", "ModInfo"],
+ Cell[BoxData[
+  RowBox[{"BenchmarkReport", "[", 
+   RowBox[{"\"\<\!\(\*SubscriptBox[
+StyleBox[\"system\", \"TI\"], 
+StyleBox[\"1\", \"TR\"]]\)\>\"", ",", "\"\<\!\(\*SubscriptBox[
+StyleBox[\"system\", \"TI\"], 
+StyleBox[\"2\", \"TR\"]]\)\>\"", ",", 
+    StyleBox["\[Ellipsis]", "TR"], ",", 
+    SubscriptBox[
+     StyleBox["data", "TI"], 
+     StyleBox["1", "TR"]], ",", 
+    SubscriptBox[
+     StyleBox["data", "TI"], 
+     StyleBox["2", "TR"]], ",", 
+    StyleBox["\[Ellipsis]", "TR"]}], "]"}]], "InlineFormula", 
+  "TemplateExclusion",
+  CellChangeTimes:>{3.33993972816753*^9, 3.33993980550874*^9, 
+   3.33994001643203*^9, 3.33994025794932*^9}],
+ " \[LineSeparator]",
+ Cell[BoxData[
+  ButtonBox["$BenchmarkSystems",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/$BenchmarkSystems"]], "InlineFormula"],
+ "\:304b\:3089\:6307\:5b9a\:3055\:308c\:305f\:30b7\:30b9\:30c6\:30e0\:3068",
+ Cell[BoxData[
+  ButtonBox["Benchmark",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/Benchmark"]], "InlineFormula"],
+ "\:304b\:3089\:8fd4\:3055\:308c\:305f\:6307\:5b9a\:306e\:30c7\:30fc\:30bf\
+\:3092\:6bd4\:8f03\:3059\:308b\:30ab\:30b9\:30bf\:30e0\:30ec\:30dd\:30fc\:30c8\
+\:3092\:751f\:6210\:3059\:308b\:ff0e"
+}], "Usage",
+ CellChangeTimes->{
+  3.33993972816753*^9, 3.33993980550874*^9, 3.33994001643203*^9, 
+   3.33994025794932*^9, 3.33994031509148*^9, 3.33994070786627*^9, 
+   3.33994074747322*^9, 3.33994927170045*^9, 3.33994952823934*^9, {
+   3.35922277634375*^9, 3.35922286521875*^9}, {3.36481658228125*^9, 
+   3.3648167159375*^9}, {3.3648167481875*^9, 3.36481683484375*^9}, {
+   3.36537421892188*^9, 3.3653742485625*^9}, {3.412600149171875*^9, 
+   3.412600150828125*^9}, 3.435442523296875*^9, 3.4990081250924945`*^9, 
+   3.5559418062516923`*^9, 3.555941853716395*^9, 3.6083979032274075`*^9},
+ CellID->28679],
+
+Cell[TextData[{
+ Cell[BoxData["BenchmarkReport"], "InlineFormula"],
+ "\:3092\:4f7f\:3046\:305f\:3081\:306b\:306f\:ff0c\:307e\:305a",
+ ButtonBox["\:30d9\:30f3\:30c1\:30de\:30fc\:30af\:30d1\:30c3\:30b1\:30fc\:30b8\
+",
+  BaseStyle->"Link",
+  ButtonData->"paclet:Benchmarking/guide/BenchmarkingPackage"],
+ "\:3092\:30ed\:30fc\:30c9\:3057\:306a\:304f\:3066\:306f\:306a\:3089\:306a\
+\:3044\:ff0e\:305d\:308c\:306b\:306f",
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["Needs",
+    BaseStyle->"Link"], "[", "\"\<Benchmarking`\>\"", "]"}]], "InlineFormula"],
+ "\:3092\:5b9f\:884c\:3059\:308b\:5fc5\:8981\:304c\:3042\:308b\:ff0e"
+}], "Notes",
+ CellChangeTimes->{{3.5354582582803774`*^9, 3.5354582659948187`*^9}, 
+   3.5559418896968317`*^9},
+ CellID->722004547],
+
+Cell["\:30d5\:30ed\:30f3\:30c8\:30a8\:30f3\:30c9\:304c\:4f7f\:7528\:3067\:304d\
+\:306a\:3044\:5834\:5408\:306f\:ff0c\:30ec\:30dd\:30fc\:30c8\:306f\:30c6\:30ad\
+\:30b9\:30c8\:3068\:3057\:3066\:8fd4\:3055\:308c\:308b\:ff0e", "Notes",
+ CellChangeTimes->{3.3653742225625*^9},
+ CellID->1948787042],
+
+Cell[TextData[{
+ StyleBox["WolframMark",
+  FontSlant->"Italic"],
+ " \:30d9\:30f3\:30c1\:30de\:30fc\:30af\:306fIntel 3.40 GHz i7\:30d7\:30ed\
+\:30bb\:30c3\:30b5\:3067\:5b9f\:884c\:3059\:308b\:3068\:ff0c\:7d049\:79d2\
+\:304b\:304b\:308b\:ff0e"
+}], "Notes",
+ CellChangeTimes->{
+  3.3399492794516*^9, {3.36474668340242*^9, 3.36474670822595*^9}, {
+   3.36481686851563*^9, 3.3648168789375*^9}, 3.43544252575*^9, {
+   3.4990081424294863`*^9, 3.4990081599544888`*^9}, 3.5559419046294127`*^9, {
+   3.608397914709408*^9, 3.608397928452408*^9}},
+ CellID->12106]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:30c1\:30e5\:30fc\:30c8\:30ea\:30a2\:30eb", "TutorialsSection",
+ CellID->20825],
+
+Cell[TextData[ButtonBox["\:30d9\:30f3\:30c1\:30de\:30fc\:30af\:30d1\:30c3\
+\:30b1\:30fc\:30b8",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Benchmarking/tutorial/Benchmark"]], "Tutorials",
+ CellChangeTimes->{{3.36474868217005*^9, 3.36474870233388*^9}, 
+   3.371989606640625*^9, {3.382317956203125*^9, 3.3823179655*^9}},
+ CellID->31893]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:95a2\:9023\:30ea\:30f3\:30af", "RelatedLinksSection",
+ CellID->29654],
+
+Cell["XXXX", "RelatedLinks",
+ CellID->23465]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:95a2\:9023\:9805\:76ee", "SeeAlsoSection",
+ CellID->21020],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["Benchmark",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/Benchmark"]], "InlineFormula"],
+ " \[EmptyVerySmallSquare] ",
+ Cell[BoxData[
+  ButtonBox["$BenchmarkSystems",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/$BenchmarkSystems"]], "InlineFormula"]
+}], "SeeAlso",
+ CellChangeTimes->{{3.36474715466097*^9, 3.36474716200464*^9}, {
+   3.36474776132389*^9, 3.36474776138234*^9}, {3.36474840310024*^9, 
+   3.36474840316138*^9}, 3.376331847578125*^9, 3.6083979457934074`*^9},
+ CellID->24809]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:305d\:306e\:4ed6", "MoreAboutSection",
+ CellID->392106391],
+
+Cell["Autogenerated", "SeeAlso",
+ CellChangeTimes->{{3.555937640548575*^9, 3.555937666460075*^9}, {
+   3.5559419628516207`*^9, 3.55594196430243*^9}, 3.5902469428108516`*^9},
+ CellID->1598554011]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:62e1\:5f35/\:95a2\:9023\:30d1\:30c3\:30b1\:30fc\:30b8", \
+"ExtensionsSection",
+ CellID->10819],
+
+Cell["XXXX", "Extensions",
+ CellID->18534]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {
+     StyleBox["\:4f8b\:984c", "PrimaryExamplesSection"], 
+     ButtonBox[
+      RowBox[{"\:8ffd\:52a0\:4f8b\:984c", " ", "\[RightTriangle]"}],
+      BaseStyle->"ExtendedExamplesLink",
+      ButtonData:>"ExtendedExamples"]}
+   }],
+  $Line = 0; Null]], "PrimaryExamplesSection",
+ CellID->11550],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<Benchmarking`\>\"", "]"}]], "Input",
+ CellLabel->"In[1]:=",
+ CellID->515347935],
+
+Cell[TextData[{
+ StyleBox["WolframMark",
+  FontSlant->"Italic"],
+ " \:30d9\:30f3\:30c1\:30de\:30fc\:30af\:3092\:5b9f\:884c\:3059\:308b\:ff1a"
+}], "ExampleText",
+ CellChangeTimes->{{3.3647485988875*^9, 3.36474860006762*^9}, {
+   3.36474903358949*^9, 3.36474905857373*^9}, 3.36475046038166*^9, {
+   3.36481692648438*^9, 3.36481693335938*^9}, 3.435442529078125*^9, {
+   3.499008181987749*^9, 3.499008182394772*^9}, 3.555941986673974*^9, 
+   3.6083979567384076`*^9},
+ CellID->1671718169],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BenchmarkReport", "[", "]"}]], "Input",
+ CellLabel->"In[3]:=",
+ CellID->103534394],
+
+Cell[BoxData[
+ TemplateBox[{FrontEndObject[
+    LinkObject["egdqx_shm", 3, 1]],30,
+   "FrontEndObject[LinkObject[\"egdqx_shm\", 3, 1]]","30",
+   "\"WolframMark Report\""},
+  "NotebookObjectUnsaved"]], "Output",
+ CellChangeTimes->{3.3841756902304573`*^9, 3.6078636251504817`*^9, 
+  3.6078636746579995`*^9},
+ CellLabel->"Out[3]=",
+ CellID->184096258]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["$BenchmarkSystems",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/$BenchmarkSystems"]], "InlineFormula"],
+ "\:306e2\:3064\:306e\:30b7\:30b9\:30c6\:30e0\:3068\:ff0c",
+ Cell[BoxData[
+  ButtonBox["Benchmark",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/Benchmark"]], "InlineFormula"],
+ "\:306e\:7d50\:679c\:304b\:3089\:306e\:30ab\:30b9\:30bf\:30e0\:6bd4\:8f03\
+\:30ec\:30dd\:30fc\:30c8\:3092\:751f\:6210\:3059\:308b\:ff1a"
+}], "ExampleText",
+ CellChangeTimes->{{3.3647485988875*^9, 3.36474860006762*^9}, {
+  3.36474903358949*^9, 3.36474905857373*^9}, {3.36475046038166*^9, 
+  3.36475049451229*^9}, {3.36475082618068*^9, 3.3647508850444*^9}, {
+  3.36481694965625*^9, 3.36481700665625*^9}, {3.376331880375*^9, 
+  3.37633189278125*^9}},
+ CellID->1458975603],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"myBenchmarkResult", " ", "=", " ", 
+   RowBox[{"Benchmark", "[", "]"}]}], ";"}]], "Input",
+ CellLabel->"In[4]:=",
+ CellID->202999395],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BenchmarkReport", "[", 
+  RowBox[{
+  "\"\<2.93 GHz Core i7-940 (8 Cores) (Linux Ubuntu (64-bit) Desktop)\>\"", 
+   ",", "myBenchmarkResult"}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.384175559854598*^9, {3.384180359286564*^9, 3.384180365729903*^9}, {
+   3.6078636494828367`*^9, 3.60786365056988*^9}, 3.607863710634533*^9, 
+   3.607863743459038*^9},
+ CellLabel->"In[5]:=",
+ CellID->50740490],
+
+Cell[BoxData[
+ TemplateBox[{FrontEndObject[
+    LinkObject["egdqx_shm", 3, 1]],32,
+   "FrontEndObject[LinkObject[\"egdqx_shm\", 3, 1]]","32",
+   "\"WolframMark Report\""},
+  "NotebookObjectUnsaved"]], "Output",
+ CellChangeTimes->{3.3841757924823*^9, 3.6078637455240192`*^9},
+ CellLabel->"Out[5]=",
+ CellID->678719791]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:8ffd\:52a0\:4f8b\:984c", "ExtendedExamplesSection",
+ CellTags->"ExtendedExamples",
+ CellID->30851],
+
+Cell[BoxData[
+ InterpretationBox[Cell["\:30b9\:30b3\:30fc\:30d7", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->17629],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:4e00\:822c\:5316\:3068\:62e1\:5f35", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->17060],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell["\:30aa\:30d7\:30b7\:30e7\:30f3", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->5501],
+
+Cell[BoxData[
+ InterpretationBox[Cell["XXXX", "ExampleSubsection"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->6738],
+
+Cell[BoxData[
+ InterpretationBox[Cell["XXXX", "ExampleSubsection"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->11746]
+}, Closed]],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:30a2\:30d7\:30ea\:30b1\:30fc\:30b7\:30e7\:30f3", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->32377],
+
+Cell[BoxData[
+ InterpretationBox[Cell["\:7279\:6027\:3068\:95a2\:4fc2", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->22158],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:8003\:3048\:3089\:308c\:308b\:554f\:984c", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->28081],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:30a4\:30f3\:30bf\:30e9\:30af\:30c6\:30a3\:30d6\:306a\:4f8b\:984c", 
+   "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->4949],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:304a\:3082\:3057\:308d\:3044\:4f8b\:984c", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->17837]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Design Discussion", "DesignDiscussionSection",
+ CellID->22407],
+
+Cell["XXXX", "DesignDiscussion",
+ CellID->12103]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Application Notes", "ApplicationNotesSection",
+ CellID->10322],
+
+Cell["XXXX", "ApplicationNotes",
+ CellID->959]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Test Cases", "TestCasesSection",
+ CellID->127794193],
+
+Cell[BoxData["XXXX"], "Input",
+ CellID->2112047534]
+}, Open  ]]
+},
+WindowSize->{740, 730},
+WindowMargins->{{1, Automatic}, {Automatic, -1}},
+TaggingRules->{"A" -> True, "NeededPackages" -> {"Benchmarking`"}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (2014\:5e744\:670829\
+\:65e5)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStyles.nb", 
+  CharacterEncoding -> "ShiftJIS"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "ExtendedExamples"->{
+  Cell[12135, 419, 106, 2, 53, "ExtendedExamplesSection",
+   CellTags->"ExtendedExamples",
+   CellID->30851]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"ExtendedExamples", 14744, 523}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 389, 15, 22, "History",
+ CellID->28587],
+Cell[CellGroupData[{
+Cell[971, 39, 63, 1, 27, "CategorizationSection",
+ CellID->22222],
+Cell[1037, 42, 75, 2, 31, "Categorization",
+ CellID->19455],
+Cell[1115, 46, 88, 2, 31, "Categorization",
+ CellID->2957],
+Cell[1206, 50, 78, 2, 31, "Categorization",
+ CellID->21173],
+Cell[1287, 54, 97, 2, 31, "Categorization",
+ CellID->218201857],
+Cell[1387, 58, 60, 1, 31, "Categorization"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1484, 64, 35, 0, 17, "SynonymsSection"],
+Cell[1522, 66, 24, 0, 70, "Synonyms"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1583, 71, 49, 1, 17, "KeywordsSection",
+ CellID->564],
+Cell[1635, 74, 40, 1, 70, "Keywords",
+ CellID->24961]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1712, 80, 60, 1, 17, "TemplatesSection",
+ CellID->24951],
+Cell[1775, 83, 234, 5, 70, "Template",
+ CellID->434081869],
+Cell[2012, 90, 78, 2, 70, "Template",
+ CellID->11975],
+Cell[2093, 94, 76, 2, 70, "Template",
+ CellID->31200],
+Cell[2172, 98, 78, 2, 70, "Template",
+ CellID->28307]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2287, 105, 53, 1, 17, "DetailsSection",
+ CellID->214739462],
+Cell[2343, 108, 61, 2, 29, "Details",
+ CellID->2894182],
+Cell[2407, 112, 69, 2, 29, "Details",
+ CellID->713990070],
+Cell[2479, 116, 66, 2, 29, "Details",
+ CellID->683371250],
+Cell[2548, 120, 70, 2, 29, "Details",
+ CellID->18650948],
+Cell[2621, 124, 61, 2, 29, "Details",
+ CellID->347140507],
+Cell[2685, 128, 61, 2, 29, "Details",
+ CellID->145919925],
+Cell[2749, 132, 63, 2, 29, "Details",
+ CellID->341001909],
+Cell[2815, 136, 78, 2, 29, "Details",
+ CellID->222376811],
+Cell[2896, 140, 66, 2, 29, "Details",
+ CellID->70164168]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2999, 147, 53, 1, 62, "ObjectName",
+ CellID->17243],
+Cell[3055, 150, 2417, 56, 110, "Usage",
+ CellID->28679],
+Cell[5475, 208, 744, 17, 39, "Notes",
+ CellID->722004547],
+Cell[6222, 227, 292, 4, 23, "Notes",
+ CellID->1948787042],
+Cell[6517, 233, 550, 12, 23, "Notes",
+ CellID->12106]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7104, 250, 86, 1, 43, "TutorialsSection",
+ CellID->20825],
+Cell[7193, 253, 332, 6, 16, "Tutorials",
+ CellID->31893]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7562, 264, 77, 1, 30, "RelatedLinksSection",
+ CellID->29654],
+Cell[7642, 267, 44, 1, 16, "RelatedLinks",
+ CellID->23465]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7723, 273, 66, 1, 30, "SeeAlsoSection",
+ CellID->21020],
+Cell[7792, 276, 565, 14, 19, "SeeAlso",
+ CellID->24809]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8394, 295, 66, 1, 30, "MoreAboutSection",
+ CellID->392106391],
+Cell[8463, 298, 194, 3, 16, "SeeAlso",
+ CellID->1598554011]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8694, 306, 102, 2, 30, "ExtensionsSection",
+ CellID->10819],
+Cell[8799, 310, 42, 1, 16, "Extensions",
+ CellID->18534]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8878, 316, 341, 10, 68, "PrimaryExamplesSection",
+ CellID->11550],
+Cell[9222, 328, 121, 3, 27, "Input",
+ CellID->515347935],
+Cell[9346, 333, 483, 10, 20, "ExampleText",
+ CellID->1671718169],
+Cell[CellGroupData[{
+Cell[9854, 347, 106, 3, 27, "Input",
+ CellID->103534394],
+Cell[9963, 352, 348, 9, 43, "Output",
+ CellID->184096258]
+}, Open  ]],
+Cell[10326, 364, 829, 18, 23, "ExampleText",
+ CellID->1458975603],
+Cell[11158, 384, 168, 5, 27, "Input",
+ CellID->202999395],
+Cell[CellGroupData[{
+Cell[11351, 393, 415, 10, 68, "Input",
+ CellID->50740490],
+Cell[11769, 405, 317, 8, 43, "Output",
+ CellID->678719791]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12135, 419, 106, 2, 53, "ExtendedExamplesSection",
+ CellTags->"ExtendedExamples",
+ CellID->30851],
+Cell[12244, 423, 139, 3, 30, "ExampleSection",
+ CellID->17629],
+Cell[12386, 428, 154, 4, 18, "ExampleSection",
+ CellID->17060],
+Cell[CellGroupData[{
+Cell[12565, 436, 144, 3, 18, "ExampleSection",
+ CellID->5501],
+Cell[12712, 441, 124, 3, 70, "ExampleSubsection",
+ CellID->6738],
+Cell[12839, 446, 125, 3, 70, "ExampleSubsection",
+ CellID->11746]
+}, Closed]],
+Cell[12979, 452, 166, 4, 18, "ExampleSection",
+ CellID->32377],
+Cell[13148, 458, 145, 3, 18, "ExampleSection",
+ CellID->22158],
+Cell[13296, 463, 160, 4, 18, "ExampleSection",
+ CellID->28081],
+Cell[13459, 469, 187, 5, 18, "ExampleSection",
+ CellID->4949],
+Cell[13649, 476, 160, 4, 18, "ExampleSection",
+ CellID->17837]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13846, 485, 68, 1, 78, "DesignDiscussionSection",
+ CellID->22407],
+Cell[13917, 488, 48, 1, 16, "DesignDiscussion",
+ CellID->12103]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14002, 494, 68, 1, 30, "ApplicationNotesSection",
+ CellID->10322],
+Cell[14073, 497, 46, 1, 16, "ApplicationNotes",
+ CellID->959]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14156, 503, 58, 1, 30, "TestCasesSection",
+ CellID->127794193],
+Cell[14217, 506, 51, 1, 27, "Input",
+ CellID->2112047534]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,613 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     16004,        604]
+NotebookOptionsPosition[     11156,        426]
+NotebookOutlinePosition[     11829,        451]
+CellTagsIndexPosition[     11750,        446]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "New in: ",
+ Cell["6", "HistoryData",
+  CellTags->"New"],
+ " | Modified in: ",
+ Cell[" 8", "HistoryData",
+  CellTags->"Modified"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete"],
+ " | Excised in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Excised"]
+}], "History",
+ CellChangeTimes->{{3.4990077081096444`*^9, 3.4990077081106443`*^9}},
+ CellID->1915],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->15659],
+
+Cell["Symbol", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->4255],
+
+Cell["Benchmarking Package", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->21289],
+
+Cell["Benchmarking`", "Categorization",
+ CellLabel->"Context",
+ CellID->17804],
+
+Cell["Benchmarking/ref/$BenchmarkSystems", "Categorization",
+ CellLabel->"URI",
+ CellID->312433130],
+
+Cell["XXXX", "Categorization",
+ CellLabel->"Title Modifier"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Synonyms", "SynonymsSection"],
+
+Cell["XXXX", "Synonyms"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->11852],
+
+Cell["XXXX", "Keywords",
+ CellID->10883]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Syntax Templates", "TemplatesSection",
+ CellID->16234],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Additional Function Template",
+ CellID->31886],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Arguments Pattern",
+ CellID->20425],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Local Variables",
+ CellID->1300],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Color Equal Signs",
+ CellID->11121]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Details", "DetailsSection",
+ CellID->248425404],
+
+Cell["XXXX", "Details",
+ CellLabel->"Lead",
+ CellID->86531023],
+
+Cell["XXXX", "Details",
+ CellLabel->"Developers",
+ CellID->54195402],
+
+Cell["XXXX", "Details",
+ CellLabel->"Authors",
+ CellID->7057492],
+
+Cell["XXXX", "Details",
+ CellLabel->"Feature Name",
+ CellID->163338163],
+
+Cell["XXXX", "Details",
+ CellLabel->"QA",
+ CellID->544672],
+
+Cell["XXXX", "Details",
+ CellLabel->"DA",
+ CellID->205465032],
+
+Cell["XXXX", "Details",
+ CellLabel->"Docs",
+ CellID->45418918],
+
+Cell["XXXX", "Details",
+ CellLabel->"Features Page Notes",
+ CellID->275070804],
+
+Cell["XXXX", "Details",
+ CellLabel->"Comments",
+ CellID->670518466]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["$BenchmarkSystems", "ObjectName",
+ CellChangeTimes:>{3.33994863496487*^9},
+ CellID->4559],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TooltipBox[Cell[" ", "ModInfo"],
+   " "]]],
+ Cell[BoxData["$BenchmarkSystems"], "InlineFormula",
+  CellChangeTimes:>{3.33994865295074*^9}],
+ " \[LineSeparator]",
+ StyleBox["WolframMark",
+  FontSlant->"Italic"],
+ " \:30d9\:30f3\:30c1\:30de\:30fc\:30af\:30c7\:30fc\:30bf\:3067\:65e2\:77e5\
+\:3068\:3055\:308c\:308b\:30b7\:30b9\:30c6\:30e0\:306e\:540d\:524d\:3092\:8fd4\
+\:3059\:ff0e"
+}], "Usage",
+ CellChangeTimes->{
+  3.33994865686637*^9, 3.33994885719442*^9, 3.33994892773586*^9, {
+   3.35922273007813*^9, 3.3592227438125*^9}, 3.38231781853125*^9, {
+   3.435442325796875*^9, 3.435442326296875*^9}, 3.4990077522051663`*^9, {
+   3.5559434065922728`*^9, 3.555943431484747*^9}, {3.6083976193234076`*^9, 
+   3.6083976337234077`*^9}},
+ CellID->13056],
+
+Cell[TextData[{
+ Cell[BoxData["$BenchmarkSystems"], "InlineFormula"],
+ "\:3092\:4f7f\:3046\:305f\:3081\:306b\:306f\:ff0c\:307e\:305a",
+ ButtonBox["\:30d9\:30f3\:30c1\:30de\:30fc\:30af\:30d1\:30c3\:30b1\:30fc\:30b8\
+",
+  BaseStyle->"Link",
+  ButtonData->"paclet:Benchmarking/guide/BenchmarkingPackage"],
+ "\:3092\:30ed\:30fc\:30c9\:3057\:306a\:304f\:3066\:306f\:306a\:3089\:306a\
+\:3044\:ff0e\:305d\:308c\:306b\:306f",
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["Needs",
+    BaseStyle->"Link"], "[", "\"\<Benchmarking`\>\"", "]"}]], "InlineFormula"],
+ "\:3092\:5b9f\:884c\:3059\:308b\:5fc5\:8981\:304c\:3042\:308b\:ff0e"
+}], "Notes",
+ CellChangeTimes->{{3.535457902516029*^9, 3.535457907997342*^9}, 
+   3.555943466793314*^9},
+ CellID->651833740]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:30c1\:30e5\:30fc\:30c8\:30ea\:30a2\:30eb", "TutorialsSection",
+ CellID->1789],
+
+Cell[TextData[ButtonBox["\:30d9\:30f3\:30c1\:30de\:30fc\:30af\:30d1\:30c3\
+\:30b1\:30fc\:30b8",
+ BaseStyle->"Link",
+ ButtonData->"paclet:Benchmarking/tutorial/Benchmark"]], "Tutorials",
+ CellChangeTimes->{{3.36474868217005*^9, 3.36474870233388*^9}, 
+   3.3763317234375*^9, {3.382317828515625*^9, 3.382317837328125*^9}},
+ CellID->31893]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:95a2\:9023\:30ea\:30f3\:30af", "RelatedLinksSection",
+ CellID->30403],
+
+Cell["XXXX", "RelatedLinks",
+ CellID->18209]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:95a2\:9023\:9805\:76ee", "SeeAlsoSection",
+ CellID->27106],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["Benchmark",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/Benchmark"]], "InlineFormula"],
+ " \[EmptyVerySmallSquare] ",
+ Cell[BoxData[
+  ButtonBox["BenchmarkReport",
+   BaseStyle->"Link",
+   ButtonData->"paclet:Benchmarking/ref/BenchmarkReport"]], "InlineFormula"]
+}], "SeeAlso",
+ CellChangeTimes->{{3.36474715466097*^9, 3.36474716200464*^9}, {
+   3.36474776132389*^9, 3.36474776138234*^9}, {3.36474840310024*^9, 
+   3.36474840316138*^9}, 3.379248748609375*^9},
+ CellID->24809]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:305d\:306e\:4ed6", "MoreAboutSection",
+ CellID->132920543],
+
+Cell["Autogenerated", "MoreAbout",
+ CellChangeTimes->{{3.555935431508464*^9, 3.55593546441536*^9}, 
+   3.590246955128852*^9},
+ CellID->982015494]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:62e1\:5f35/\:95a2\:9023\:30d1\:30c3\:30b1\:30fc\:30b8", \
+"ExtensionsSection",
+ CellID->8883],
+
+Cell["XXXX", "Extensions",
+ CellID->31331]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {
+     StyleBox["\:4f8b\:984c", "PrimaryExamplesSection"], 
+     ButtonBox[
+      RowBox[{"\:8ffd\:52a0\:4f8b\:984c", " ", "\[RightTriangle]"}],
+      BaseStyle->"ExtendedExamplesLink",
+      ButtonData:>"ExtendedExamples"]}
+   }],
+  $Line = 0; Null]], "PrimaryExamplesSection",
+ CellID->10022],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<Benchmarking`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6078638388856316`*^9, 3.6078638414591045`*^9}},
+ CellLabel->"In[1]:=",
+ CellID->4817752],
+
+Cell[TextData[{
+ StyleBox["WolframMark",
+  FontSlant->"Italic"],
+ " \:30d9\:30f3\:30c1\:30de\:30fc\:30af\:30c7\:30fc\:30bf\:3092\:65e2\:77e5\
+\:3068\:3059\:308b\:30b7\:30b9\:30c6\:30e0\:3092\:30ea\:30b9\:30c8\:3059\:308b\
+\:ff1a"
+}], "ExampleText",
+ CellChangeTimes->{{3.6078639356004605`*^9, 3.6078639784245653`*^9}, {
+  3.6083976632924075`*^9, 3.608397703294408*^9}},
+ CellID->33870736],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"$BenchmarkSystems", "//", "Column"}]], "Input",
+ CellChangeTimes->{{3.6078638347836933`*^9, 3.6078638497460537`*^9}},
+ CellLabel->"In[4]:=",
+ CellID->543845094],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"3.07 GHz Core i7-950 (8 Cores) (Windows 7 Pro (64-bit) \
+Desktop)\"\>"},
+    {"\<\"Intel(R) Core(TM) i5-3550 CPU @ 3.30GHz (Microsoft Windows \
+(64-bit))\"\>"},
+    {"\<\"2.4 Ghz Core 2 Duo Mobile T8300 (2 Cores) (MacBook OS X Snow \
+Leopard (64-bit) Laptop)\"\>"},
+    {"\<\"2.80 GHz Core 2 Duo Mobile T9600 (2 Cores) (Windows 7 Pro (64-bit) \
+Laptop)\"\>"},
+    {"\<\"1.6 GHz Core 2 Duo Mobile L7500 (2 Cores) (Windows 7 Pro (32-bit) \
+Laptop)\"\>"},
+    {"\<\"2.93 GHz Core i7-940 (8 Cores) (Linux Ubuntu (64-bit) Desktop)\"\>"},
+    {"\<\"Intel Core i7-3770 CPU @ 3.40GHz (8 cores) (Linux x86 \
+(64-bit))\"\>"},
+    {"\<\"2.60 GHz Core 2 Duo Mobile T7800 (2 Cores) (Windows XP Pro (32-bit) \
+Laptop)\"\>"},
+    {"\<\"2.13 GHz Core 2 Duo E6400 (2 Cores) (Windows Vista (32-bit) Server)\
+\"\>"},
+    {"\<\"3.5 GHz 6-Core Intel Xeon E5 (Mac OS X x86 (64-bit))\"\>"},
+    {"\<\"2 \[Times] 2.26 GHz Quad Core Xeon E5520 (8 Cores) (Mac XServe OS X \
+(64-bit) Server)\"\>"},
+    {"\<\"2 \[Times] 2.00 GHz G5 PowerPC (2 Cores) (Mac OS X (32-bit) \
+Desktop)\"\>"},
+    {"\<\"2.2 GHz Intel Core i7 (Mac OS X x86 (64-bit))\"\>"},
+    {"\<\"ARMv6-compatible processor rev 7 (v6l) (Linux ARM (32-bit))\"\>"},
+    {"\<\"Intel Core i7 CPU (Microsoft Windows (64-bit))\"\>"}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{{3.607863846049508*^9, 3.6078638501084037`*^9}, 
+   3.607863927687866*^9},
+ CellLabel->"Out[4]=",
+ CellID->221468428]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:8ffd\:52a0\:4f8b\:984c", "ExtendedExamplesSection",
+ CellTags->"ExtendedExamples",
+ CellID->29848],
+
+Cell[BoxData[
+ InterpretationBox[Cell["\:30b9\:30b3\:30fc\:30d7", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->900],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:4e00\:822c\:5316\:3068\:62e1\:5f35", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->22953],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell["\:30aa\:30d7\:30b7\:30e7\:30f3", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->21615],
+
+Cell[BoxData[
+ InterpretationBox[Cell["XXXX", "ExampleSubsection"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->6828],
+
+Cell[BoxData[
+ InterpretationBox[Cell["XXXX", "ExampleSubsection"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->22968]
+}, Closed]],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:30a2\:30d7\:30ea\:30b1\:30fc\:30b7\:30e7\:30f3", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->1784],
+
+Cell[BoxData[
+ InterpretationBox[Cell["\:7279\:6027\:3068\:95a2\:4fc2", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->8446],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:8003\:3048\:3089\:308c\:308b\:554f\:984c", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->2763],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:30a4\:30f3\:30bf\:30e9\:30af\:30c6\:30a3\:30d6\:306a\:4f8b\:984c", 
+   "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->3640],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\:304a\:3082\:3057\:308d\:3044\:4f8b\:984c", "ExampleSection"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->18475]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Design Discussion", "DesignDiscussionSection",
+ CellID->31122],
+
+Cell["XXXX", "DesignDiscussion",
+ CellID->969]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Application Notes", "ApplicationNotesSection",
+ CellID->5456],
+
+Cell["XXXX", "ApplicationNotes",
+ CellID->28136]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Test Cases", "TestCasesSection",
+ CellID->26606050],
+
+Cell[BoxData["XXXX"], "Input",
+ CellID->186645388]
+}, Open  ]]
+},
+WindowSize->{740, 730},
+WindowMargins->{{-1, Automatic}, {Automatic, -8}},
+TaggingRules->{"A" -> True, "NeededPackages" -> {"Benchmarking`"}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (2014\:5e744\:670829\
+\:65e5)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStyles.nb", 
+  CharacterEncoding -> "ShiftJIS"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "ExtendedExamples"->{
+  Cell[9014, 335, 106, 2, 53, "ExtendedExamplesSection",
+   CellTags->"ExtendedExamples",
+   CellID->29848]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"ExtendedExamples", 11617, 439}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 388, 15, 22, "History",
+ CellID->1915],
+Cell[CellGroupData[{
+Cell[970, 39, 63, 1, 27, "CategorizationSection",
+ CellID->15659],
+Cell[1036, 42, 74, 2, 31, "Categorization",
+ CellID->4255],
+Cell[1113, 46, 89, 2, 31, "Categorization",
+ CellID->21289],
+Cell[1205, 50, 78, 2, 31, "Categorization",
+ CellID->17804],
+Cell[1286, 54, 99, 2, 31, "Categorization",
+ CellID->312433130],
+Cell[1388, 58, 60, 1, 31, "Categorization"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1485, 64, 35, 0, 17, "SynonymsSection"],
+Cell[1523, 66, 24, 0, 70, "Synonyms"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1584, 71, 51, 1, 17, "KeywordsSection",
+ CellID->11852],
+Cell[1638, 74, 40, 1, 70, "Keywords",
+ CellID->10883]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1715, 80, 60, 1, 17, "TemplatesSection",
+ CellID->16234],
+Cell[1778, 83, 89, 2, 70, "Template",
+ CellID->31886],
+Cell[1870, 87, 78, 2, 70, "Template",
+ CellID->20425],
+Cell[1951, 91, 75, 2, 70, "Template",
+ CellID->1300],
+Cell[2029, 95, 78, 2, 70, "Template",
+ CellID->11121]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2144, 102, 53, 1, 17, "DetailsSection",
+ CellID->248425404],
+Cell[2200, 105, 62, 2, 31, "Details",
+ CellID->86531023],
+Cell[2265, 109, 68, 2, 31, "Details",
+ CellID->54195402],
+Cell[2336, 113, 64, 2, 31, "Details",
+ CellID->7057492],
+Cell[2403, 117, 71, 2, 31, "Details",
+ CellID->163338163],
+Cell[2477, 121, 58, 2, 31, "Details",
+ CellID->544672],
+Cell[2538, 125, 61, 2, 31, "Details",
+ CellID->205465032],
+Cell[2602, 129, 62, 2, 31, "Details",
+ CellID->45418918],
+Cell[2667, 133, 78, 2, 31, "Details",
+ CellID->275070804],
+Cell[2748, 137, 67, 2, 31, "Details",
+ CellID->670518466]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2852, 144, 95, 2, 62, "ObjectName",
+ CellID->4559],
+Cell[2950, 148, 777, 19, 71, "Usage",
+ CellID->13056],
+Cell[3730, 169, 740, 17, 39, "Notes",
+ CellID->651833740]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4507, 191, 85, 1, 43, "TutorialsSection",
+ CellID->1789],
+Cell[4595, 194, 335, 6, 16, "Tutorials",
+ CellID->31893]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4967, 205, 77, 1, 30, "RelatedLinksSection",
+ CellID->30403],
+Cell[5047, 208, 44, 1, 16, "RelatedLinks",
+ CellID->18209]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5128, 214, 66, 1, 30, "SeeAlsoSection",
+ CellID->27106],
+Cell[5197, 217, 537, 14, 19, "SeeAlso",
+ CellID->24809]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5771, 236, 66, 1, 30, "MoreAboutSection",
+ CellID->132920543],
+Cell[5840, 239, 145, 3, 16, "MoreAbout",
+ CellID->982015494]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6022, 247, 101, 2, 30, "ExtensionsSection",
+ CellID->8883],
+Cell[6126, 251, 42, 1, 16, "Extensions",
+ CellID->31331]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6205, 257, 341, 10, 68, "PrimaryExamplesSection",
+ CellID->10022],
+Cell[6549, 269, 189, 4, 27, "Input",
+ CellID->4817752],
+Cell[6741, 275, 388, 9, 20, "ExampleText",
+ CellID->33870736],
+Cell[CellGroupData[{
+Cell[7154, 288, 184, 4, 27, "Input",
+ CellID->543845094],
+Cell[7341, 294, 1624, 35, 280, "Output",
+ CellID->221468428]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9014, 335, 106, 2, 53, "ExtendedExamplesSection",
+ CellTags->"ExtendedExamples",
+ CellID->29848],
+Cell[9123, 339, 137, 3, 30, "ExampleSection",
+ CellID->900],
+Cell[9263, 344, 154, 4, 18, "ExampleSection",
+ CellID->22953],
+Cell[CellGroupData[{
+Cell[9442, 352, 145, 3, 18, "ExampleSection",
+ CellID->21615],
+Cell[9590, 357, 124, 3, 70, "ExampleSubsection",
+ CellID->6828],
+Cell[9717, 362, 125, 3, 70, "ExampleSubsection",
+ CellID->22968]
+}, Closed]],
+Cell[9857, 368, 165, 4, 18, "ExampleSection",
+ CellID->1784],
+Cell[10025, 374, 144, 3, 18, "ExampleSection",
+ CellID->8446],
+Cell[10172, 379, 159, 4, 18, "ExampleSection",
+ CellID->2763],
+Cell[10334, 385, 187, 5, 18, "ExampleSection",
+ CellID->3640],
+Cell[10524, 392, 160, 4, 18, "ExampleSection",
+ CellID->18475]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10721, 401, 68, 1, 78, "DesignDiscussionSection",
+ CellID->31122],
+Cell[10792, 404, 46, 1, 16, "DesignDiscussion",
+ CellID->969]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10875, 410, 67, 1, 30, "ApplicationNotesSection",
+ CellID->5456],
+Cell[10945, 413, 48, 1, 16, "ApplicationNotes",
+ CellID->28136]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11030, 419, 57, 1, 30, "TestCasesSection",
+ CellID->26606050],
+Cell[11090, 422, 50, 1, 27, "Input",
+ CellID->186645388]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
