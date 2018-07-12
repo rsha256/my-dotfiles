@@ -46,6 +46,8 @@ else ifeq ($(UNAME_M),armv6l)
 	BINARY := $(BINARYARM6)
 else ifeq ($(UNAME_M),armv7l)
 	BINARY := $(BINARYARM7)
+else ifeq ($(UNAME_M),armv8l)
+	BINARY := $(BINARYARM8)
 else
 $(error "Build on $(UNAME_M) is not supported, yet.")
 endif
@@ -128,4 +130,12 @@ target/$(BINARYARM8): $(SOURCES) vendor
 bin/fzf: target/$(BINARY) | bin
 	cp -f target/$(BINARY) bin/fzf
 
-.PHONY: all release release-all test install clean
+docker:
+	docker build -t fzf-arch .
+	docker run -it fzf-arch tmux
+
+docker-test:
+	docker build -t fzf-arch .
+	docker run -it fzf-arch
+
+.PHONY: all release release-all test install clean docker docker-test
