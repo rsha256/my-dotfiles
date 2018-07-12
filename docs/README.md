@@ -7,7 +7,7 @@ If you like my config then feel free to use it
 
 #### Aliases
 
-* [.bashrc](../Debian/.bashrc#100) (For linking to .bash_aliases)
+* [.bashrc](../Debian/.bashrc#L100) (For linking to .bash_aliases)
 
 * [.bash_aliases](../Debian/.bash_aliases)
 
