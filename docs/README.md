@@ -36,3 +36,5 @@ If you like my config then feel free to use it
     * [``.oh-my-zsh/``](https://github.com/robbyrussell/oh-my-zsh)
 
     * [``.fzf/``](https://github.com/junegunn/fzf)
+    
+    * [``Powerline Fonts``](https://github.com/powerline/fonts#quick-installation)
