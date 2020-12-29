@@ -3,6 +3,12 @@ My WSL, Windows and Linux dotfiles - I dont own any of this (unless i do), this 
 
 If you like my config then feel free to use it
 
+## Stuff I use:
+
+* bat
+* neofetch
+* wget
+
 ## Important files with linkage:
 
 #### Aliases
